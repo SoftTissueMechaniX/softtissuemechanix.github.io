@@ -101,5 +101,5 @@ listing:
 :::
 
 ## Alumni
-:::{#alumnis}
+:::{#alumni}
 :::

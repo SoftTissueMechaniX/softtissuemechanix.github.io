@@ -1,0 +1,139 @@
+<!--
+  =====================================================================
+  News listing template (used by news.qmd).
+  Every news/*.qmd is rendered once in a hidden "source" box; the script
+  below then moves each card to "Forthcoming" or "Past" by comparing the
+  event date with TODAY in the visitor's browser — so an event switches
+  automatically from Forthcoming to Past, no re-render needed.
+
+  Front-matter fields used in news/*.qmd:
+    date:      "YYYY-MM-DD"   event date (mandatory)
+    end-date:  "YYYY-MM-DD"   optional, last day of a multi-day event
+    location:  "Rennes"       optional
+    title, description, categories, image
+  =====================================================================
+-->
+<div class="news-app">
+<div class="news-filters" id="news-filters" aria-label="Filter by category"></div>
+<h2 class="news-heading" id="forthcoming"><span class="news-pulse" aria-hidden="true"></span> Forthcoming <span class="count" id="news-upcoming-count">0</span></h2>
+<div class="news-upcoming" id="news-upcoming"></div>
+<p class="news-empty" id="news-upcoming-empty">No upcoming event for the moment — stay tuned!</p>
+<h2 class="news-heading" id="past">Past <span class="count" id="news-past-count">0</span></h2>
+<div class="news-timeline" id="news-past"></div>
+<p class="news-empty" id="news-past-empty" hidden>Nothing here yet.</p>
+<div id="news-source" hidden>
+<% for (const item of items) { %>
+<article class="news-card reveal" <%= metadataAttrs(item) %>
+data-date="<%= item.date %>"
+data-end="<%= item['end-date'] ? String(item['end-date']).slice(0, 10) : '' %>"
+data-cats="<%= (item.categories || []).join('|') %>">
+<a href="<%- item.path %>">
+<div class="news-date" aria-hidden="true"><span class="d"></span><span class="m"></span><span class="y"></span></div>
+<div class="news-body">
+<div class="news-meta">
+<% for (const cat of (item.categories || [])) { %>
+<span class="news-cat"><%= cat %></span>
+<% } %>
+<% if (item.location) { %>
+<span class="news-loc">📍 <%= item.location %></span>
+<% } %>
+</div>
+<h3><%= item.title %></h3>
+<% if (item.description) { %>
+<p><%= item.description %></p>
+<% } %>
+<span class="news-countdown" hidden></span>
+</div>
+<% if (item.image) { %>
+<div class="news-thumb"><img src="<%- item.image %>" alt="" loading="lazy"></div>
+<% } %>
+</a>
+</article>
+<% } %>
+</div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+  function parse(s) {                       // "YYYY-MM-DD" -> local midnight
+    var m = /^(\d{4})-(\d{2})-(\d{2})/.exec(s || '');
+    return m ? new Date(+m[1], +m[2] - 1, +m[3]) : null;
+  }
+  var today = new Date(); today.setHours(0, 0, 0, 0);
+  var DAY = 864e5;
+
+  var src = document.getElementById('news-source');
+  var up = document.getElementById('news-upcoming');
+  var past = document.getElementById('news-past');
+  var cards = Array.prototype.slice.call(src.querySelectorAll('.news-card')).map(function (el) {
+    var start = parse(el.dataset.date), end = parse(el.dataset.end) || start;
+    return { el: el, start: start, end: end, cats: el.dataset.cats ? el.dataset.cats.split('|') : [] };
+  }).filter(function (c) { return c.start; });
+
+  cards.forEach(function (c) {
+    var b = c.el.querySelector('.news-date');
+    b.querySelector('.d').textContent = c.start.getDate();
+    b.querySelector('.m').textContent = MONTHS[c.start.getMonth()];
+    b.querySelector('.y').textContent = c.start.getFullYear();
+  });
+
+  var upcoming = cards.filter(function (c) { return c.end >= today; })
+                      .sort(function (a, b) { return a.start - b.start; });   // soonest first
+  var older = cards.filter(function (c) { return c.end < today; })
+                   .sort(function (a, b) { return b.start - a.start; });      // newest first
+
+  upcoming.forEach(function (c) {
+    var days = Math.round((c.start - today) / DAY);
+    var cd = c.el.querySelector('.news-countdown');
+    cd.hidden = false;
+    cd.textContent = days <= 0 ? (c.end > c.start ? 'Happening now' : 'Today')
+                   : days === 1 ? 'Tomorrow' : 'In ' + days + ' days';
+    up.appendChild(c.el);
+  });
+  var lastYear = null;
+  older.forEach(function (c) {
+    var y = c.start.getFullYear();
+    if (y !== lastYear) {
+      var h = document.createElement('div');
+      h.className = 'news-year'; h.textContent = y; h.dataset.year = y;
+      past.appendChild(h); lastYear = y;
+    }
+    c.el.dataset.year = y;
+    past.appendChild(c.el);
+  });
+
+  /* Category filter chips */
+  var cats = [];
+  cards.forEach(function (c) { c.cats.forEach(function (k) { if (cats.indexOf(k) < 0) cats.push(k); }); });
+  cats.sort();
+  var box = document.getElementById('news-filters');
+  if (cats.length > 1) {
+    ['All'].concat(cats).forEach(function (k) {
+      var bt = document.createElement('button');
+      bt.type = 'button'; bt.textContent = k; if (k === 'All') bt.classList.add('active');
+      bt.addEventListener('click', function () {
+        box.querySelectorAll('button').forEach(function (x) { x.classList.toggle('active', x === bt); });
+        apply(k);
+      });
+      box.appendChild(bt);
+    });
+  }
+
+  function apply(k) {
+    cards.forEach(function (c) { c.el.classList.toggle('news-hidden', k !== 'All' && c.cats.indexOf(k) < 0); });
+    past.querySelectorAll('.news-year').forEach(function (h) {
+      var any = past.querySelector('.news-card[data-year="' + h.dataset.year + '"]:not(.news-hidden)');
+      h.classList.toggle('news-hidden', !any);
+    });
+    var nUp = up.querySelectorAll('.news-card:not(.news-hidden)').length;
+    var nPast = past.querySelectorAll('.news-card:not(.news-hidden)').length;
+    document.getElementById('news-upcoming-count').textContent = nUp;
+    document.getElementById('news-past-count').textContent = nPast;
+    document.getElementById('news-upcoming-empty').hidden = nUp > 0;
+    document.getElementById('news-past-empty').hidden = nPast > 0;
+  }
+  apply('All');
+  if (window.stmReveal) window.stmReveal(); else cards.forEach(function (c) { c.el.classList.add('is-visible'); });
+});
+</script>

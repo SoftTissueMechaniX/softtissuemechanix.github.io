@@ -3,7 +3,7 @@ title: "Chloé Techens"
 subtitle: "Assistant Professor"
 order: 2
 image: ../../resources/images/members/pis/chloe_techens.jpeg
-description: "Email: chloe.techens@polytechnique.edu <br> Room: 104-20-67"
+description: "Email: <span class='stm-email' data-user='chloe.techens' data-domain='polytechnique.edu'></span> <br> Room: 104-20-67"
 about:
   id: hero-heading
   template: solana
@@ -20,7 +20,7 @@ about:
       href: https://fr.linkedin.com/in/chloe-techens
     - icon: envelope
       text: Email
-      href: mailto:chloe.techens@polytechnique.edu
+      href: "#email:chloe.techens:polytechnique.edu"
 ---
 
 <style>

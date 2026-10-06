@@ -21,7 +21,7 @@ website:
   bread-crumbs: true
   open-graph: true
   title: "Soft Tissue Biomechanics Group @ LMS"
-  image: resources/images/LMS_Building.jpg
+  image: resources/images/LMS_Building_1600.jpg
   favicon: resources/images/LMS_Logo.png
   description: "Soft Tissue Biomechanics Group @ LMS. Cornea, Hydrogel, Smooth Muscle Cells."
   site-url: https://softtissuemechanix.github.io
@@ -72,6 +72,8 @@ format:
     css: resources/pages_style/styles.css
     toc: true
     smooth-scroll: true
+    # Global JS: anti-spam e-mails, reveal-on-scroll animations, navbar height
+    include-after-body: resources/pages_style/site-scripts.html
 #     include-after-body:
 #       text: |
 #         <script type="application/javascript" src="resources/pages_style/custom_hal.js"></script>

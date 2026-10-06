@@ -2,7 +2,9 @@
 title: "Your News Title Goes Here"
 description: "A brief 1-2 sentence summary of the event. This will appear on the main news.qmd listing page."
 author: "Author Name"
-date: "1980-01-01"          # MUST be in YYYY-MM-DD format for Quarto to sort properly
+date: "1980-01-01"          # EVENT date, "YYYY-MM-DD". Future date -> "Forthcoming", past -> "Past" (automatic)
+# end-date: "1980-01-03"    # Optional: last day of a multi-day event (stays "Forthcoming" until then)
+# location: "City, Country" # Optional: shown on the news card
 categories: ["Award", "Grant", "Conference", "Defense"] # Keep only the relevant tags
 image: "path/to/image.jpg"  # Optional: Adds a thumbnail to the news feed
 draft: true                 # Prevents this template from showing up on the live site

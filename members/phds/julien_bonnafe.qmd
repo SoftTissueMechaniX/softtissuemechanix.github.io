@@ -14,7 +14,7 @@ about:
       href: https://fr.linkedin.com/in/julien-bonnaf%C3%A9-a06a68355
     - icon: envelope
       text: Email
-      href: mailto:julien.bonnafe@polytechnique.edu
+      href: "#email:julien.bonnafe:polytechnique.edu"
 ---
 
 :::{#hero-heading}

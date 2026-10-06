@@ -1,85 +1,65 @@
 ---
 title: "Publications"
-format: html
+page-layout: full
+toc: false
+format:
+  html:
+    include-in-header:
+      - text: |
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
+# Plain list kept at the bottom of the page (good for search engines and
+# for visitors without JavaScript).
 listing:
+  id: pub-list
   contents: resources/biblio/bibliography.yml
   type: table
   sort: "date desc"
-  date-format: "YYYY" # Forces just the year to show
-  categories: true
-  filter-ui: true
-  fields: [date, title, author, journal, description, tags] # Added description here
+  date-format: "YYYY"
+  sort-ui: false
+  filter-ui: false
+  fields: [date, title, author, journal]
 ---
 
-<style>
-  /* Stack the layout vertically instead of squishing columns */
-  .quarto-listing-default .listing-item {
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 1.5rem;
-    margin-bottom: 1.5rem;
-    border-bottom: 1px solid var(--bs-border-color-translucent);
-  }
-  
-  /* Make dates bold and prominent */
-  .quarto-listing-default .listing-date {
-    font-weight: bold;
-    color: var(--bs-primary);
-    margin-bottom: 0.3rem;
-  }
-  
-  /* Resize the giant title */
-  .listing-title {
-    font-size: 1.25rem !important;
-    margin-bottom: 0.3rem;
-  }
-  
-  /* Give authors full width and a slightly muted color */
-  .quarto-listing-default .listing-author {
-    max-width: 100% !important;
-    color: var(--bs-gray-700);
-    margin-bottom: 0.5rem;
-  }
-  
-  /* Style links in the description to look like buttons */
-  .listing-description a {
-    display: inline-block;
-    padding: 0.2rem 0.6rem;
-    margin-top: 0.2rem;
-    margin-right: 0.5rem;
-    background-color: var(--bs-light);
-    border: 1px solid var(--bs-border-color);
-    border-radius: 4px;
-    text-decoration: none;
-    font-size: 0.85rem;
-    color: var(--bs-body-color);
-  }
-  .listing-description a:hover {
-    background-color: var(--bs-gray-200);
-  }
+::: {.lead .stm-intro-left}
+Browse our publications by year, search them, or click on a card to see the details and reach the article.
+:::
 
-</style>
+<!-- =====================================================================
+     INTERACTIVE "FOLDER" — logic in resources/pages_style/publications.js
+     ===================================================================== -->
+```{=html}
+<div id="pub-app">
+  <div class="pub-toolbar">
+    <input id="pub-search" class="pub-search" type="search" placeholder="🔎  Search title, author, journal, keyword…" aria-label="Search publications">
+    <span id="pub-count" class="pub-count"></span>
+  </div>
+  <div id="pub-tabs" class="pub-tabs" role="tablist"></div>
+  <div class="pub-folder">
+    <div id="pub-grid" class="pub-grid"><p><em>Loading publications…</em></p></div>
 
-Here is the complete list of our research publications. You can click on the years or categories on the right to filter the list.
+    <div id="pub-detail" class="pub-detail" aria-live="polite">
+      <button type="button" class="pub-back-btn">← Back to the list</button>
+      <div class="pub-detail-layout">
+        <div class="pub-detail-media"></div>
+        <div class="pub-detail-info">
+          <h3 class="pub-detail-title"></h3>
+          <p><strong>Authors:</strong> <span class="pub-detail-authors"></span></p>
+          <p class="pub-detail-tags"></p>
+          <div class="pub-actions"></div>
+          <p class="pub-detail-keywords" style="font-size:.9rem"><strong>Keywords:</strong> <i></i></p>
+          <h4 style="margin-top:1.4rem">Abstract</h4>
+          <p class="pub-detail-abstract" style="line-height:1.6"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="resources/pages_style/publications.js"></script>
+```
 
-<script>
-window.addEventListener("load", function() {
-  const urlParams = new URLSearchParams(window.location.search);
-  const searchQuery = urlParams.get('search');
-  
-  if (searchQuery) {
-    // Look specifically for Quarto's search input class
-    const searchBox = document.querySelector('input.search');
-    
-    if (searchBox) {
-      // Type the query into the box
-      searchBox.value = searchQuery;
-      
-      // Fire all possible events to wake up Quarto's List.js filtering engine
-      searchBox.dispatchEvent(new Event('input', { bubbles: true }));
-      searchBox.dispatchEvent(new Event('keyup', { bubbles: true }));
-      searchBox.dispatchEvent(new Event('change', { bubbles: true }));
-    }
-  }
-});
-</script>
+::: {.callout-note collapse="true" appearance="simple"}
+## Compact list of all publications
+
+:::{#pub-list}
+:::
+:::

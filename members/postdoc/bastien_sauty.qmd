@@ -19,7 +19,7 @@ about:
       href: https://sainbiose-lab.fr/team/XXXXX
     - icon: envelope
       text: Email
-      href: mailto:bastien.sauty@polytechnique.edu
+      href: "#email:bastien.sauty:polytechnique.edu"
 ---
 
 <style>

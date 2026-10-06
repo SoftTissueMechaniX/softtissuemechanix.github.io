@@ -14,7 +14,7 @@ about:
       href: https://www.linkedin.com/in/margaux-mercier-713b88309/
     - icon: envelope
       text: Email
-      href: mailto:margaux.mercier@ensam.eu
+      href: "#email:margaux.mercier:ensam.eu"
 ---
 
 <style>

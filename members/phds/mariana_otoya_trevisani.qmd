@@ -14,7 +14,7 @@ about:
       href: https://fr.linkedin.com/in/mariana-otoya-t
     - icon: envelope
       text: Email
-      href: mailto:mariana.otoya@polytechnique.edu
+      href: "#email:mariana.otoya:polytechnique.edu"
 ---
 
 <style>

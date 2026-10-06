@@ -19,7 +19,7 @@ about:
       href: https://sainbiose-lab.fr/team/guillaume-patt-laffite/
     - icon: envelope
       text: Email
-      href: mailto:guillaume.patt-lafitte@polytechnique.edu
+      href: "#email:guillaume.patt-lafitte:polytechnique.edu"
 ---
 
 <style>

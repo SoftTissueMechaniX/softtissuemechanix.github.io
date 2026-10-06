@@ -3,7 +3,7 @@ title: "Jean-Marc ALLAIN"
 subtitle: "Professor"
 order: 1
 image: ../../resources/images/members/pis/jean-marc_allain.jpg
-description: "Email: jean-marc.allain@polytechnique.edu <br> Room: 104-20-72"
+description: "Email: <span class='stm-email' data-user='jean-marc.allain' data-domain='polytechnique.edu'></span> <br> Room: 104-20-72"
 about:
   id: hero-heading
   template: solana
@@ -23,7 +23,7 @@ about:
       href: https://www.polytechnique.edu/annuaire/allain-jean-marc
     - icon: envelope
       text: Email
-      href: mailto:jean-marc.allain@polytechnique.edu
+      href: "#email:jean-marc.allain:polytechnique.edu"
 ---
 
 <style>

@@ -1,22 +1,19 @@
 ---
 title: "News and events"
+toc: false
 listing:
-  contents: news   # The folder Quarto will scan for .qmd files
-  sort: "date desc"         # Sorts by date, newest first
-  type: default             # 'default' gives a classic blog-style list; you can also use 'grid'
-  categories: true          # Creates a clickable category sidebar
-  sort-ui: true             # Adds a dropdown for users to change sorting
-  filter-ui: true           # Adds a search bar for the news feed
-  fields: [date, title, description, categories, image] # What to display on the card
+  id: news-list
+  contents: news            # every news/*.qmd (drafts are ignored)
+  template: resources/templates/news-timeline.ejs
+  date-format: "YYYY-MM-DD" # keep ISO: the template formats it and compares it with today
+  sort: "date desc"
+  fields: [date, title, description, categories, image, path]
 format: html
 ---
 
-::: {.lead}
-Stay up to date with the latest developments from our group, including:
+::: {.lead .stm-intro-left}
+Stay up to date with the latest developments from our group: thesis defenses, conference presentations, awards and grants. Upcoming events are listed first and move automatically to *Past* once their date is over.
 :::
 
-* Recent thesis defenses.
-* Conference presentations.
-* Awards and grants.
-
----
+:::{#news-list}
+:::
