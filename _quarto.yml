@@ -41,10 +41,6 @@ website:
             text: Funds
       - href: news.qmd
         text: News 
-      - href: opportunities.qmd
-        text: Open Positions
-      - href: contact.qmd
-        text: Contact
       - text: "{{< iconify fa6-brands gitlab >}}" # Use a more standard icon set name
         href: https://src.koda.cnrs.fr/lms1
         aria-label: GitLab
@@ -61,8 +57,7 @@ website:
 
     left: |
       <small>
-        &copy; 2025 Soft Tissue Biomechanics Group — All rights reserved.<br>
-        <li>📧 <a href="contact.html">Contact us</a></li>
+        &copy; 2025 Soft Tissue Biomechanics Group — All rights reserved.
       </small>
 
 
