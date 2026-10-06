@@ -8,9 +8,6 @@ about:
   id: hero-heading
   template: trestles
   links:
-    - icon: envelope
-      text: Contact us
-      href: https://th0maslavigne.github.io/LMS_Biomechanics/contact.html
     - text: "{{< iconify fa6-brands gitlab >}} Gitlab"
       href: https://src.koda.cnrs.fr/lms1
 format:
@@ -18,7 +15,7 @@ format:
     page-layout: custom
     include-in-header:
       - text: |
-          <meta name="google-site-verification" content="tU9wtzWA1tzRdwTl-Sqo-j5PqUVDTz4gUn_Xy9Pji1Q" />
+          <meta name="google-site-verification" content="TOBEDONE" />
 ---
 <!-- the above site verif should be updated -->
 
