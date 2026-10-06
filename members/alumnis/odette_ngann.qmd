@@ -2,7 +2,7 @@
 title: "Odette Ngann"
 subtitle: "Former Intern (April 2025)"
 image: ../../resources/images/members/placeholder_person.png
-description: "**Current Position:** Master 1 IPP (Biomedical Engineering)"
+description: "**Next Position:** Master 1 IPP (Biomedical Engineering)"
 about:
   id: hero-heading
   template: solana

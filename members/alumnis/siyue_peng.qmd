@@ -2,7 +2,7 @@
 title: "Siyue Peng"
 subtitle: "Former Intern (2025)"
 image: ../../resources/images/members/placeholder_person.png
-description: "**Current Position:** To be communicated"
+description: "**Next Position:** To be communicated"
 about:
   id: hero-heading
   template: solana

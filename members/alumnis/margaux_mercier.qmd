@@ -2,7 +2,7 @@
 title: "Margaux Mercier"
 subtitle: "Master's Intern"
 image: ../../resources/images/members/interns/margaux_mercier.jpeg
-description: "**Dates:** Feb 2026 - June 2026 <br> Project: Experimental characterization of human corneal mechanical behavior"
+description: "**Next Position:** To be communicated."
 about:
   id: hero-heading
   template: solana

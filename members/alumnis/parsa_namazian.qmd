@@ -2,7 +2,7 @@
 title: "Parsa Namazian"
 subtitle: "Master's Intern"
 image: ../../resources/images/members/interns/parsa_namazian.jpeg
-description: "**Dates:** May 2026 (Lab Rotation) <br> Project: Numerical assessment of cell orientation impact on collagen hydrogels."
+description: "Next Position: To be communicated."
 about:
   id: hero-heading
   template: solana

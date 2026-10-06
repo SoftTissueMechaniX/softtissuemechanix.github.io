@@ -2,7 +2,7 @@
 title: "Guillaume Patt-Lafitte"
 subtitle: "Postdoctoral Researcher"
 image: ../../resources/images/members/postdoc/guillaume_patt_laffite.png
-description: "Project: _Coup de Pouce_ F2M <br> Room: 104-20-XXX <br>  **Dates:** 2026 - Present"
+description: "Project: _Coup de Pouce_ F2M <br> Room: 104-20-195 <br>  **Dates:** 2026 - Present"
 about:
   id: hero-heading
   template: solana

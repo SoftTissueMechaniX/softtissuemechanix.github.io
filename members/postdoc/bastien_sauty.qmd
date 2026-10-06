@@ -1,0 +1,40 @@
+---
+title: "Bastien Sauty"
+subtitle: "Postdoctoral Researcher"
+image: ../../resources/images/members/postdoc/bastien_sauty.png
+description: "Project: XXXX <br> Room: 104-20-215 <br>  **Dates:** 2026 - Present"
+about:
+  id: hero-heading
+  template: solana
+  image-width: 20em
+  image-shape: rounded
+  links:
+    - text: "{{< iconify fa-brands:orcid >}} ORCID"
+      href: https://orcid.org/0000-XXX
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/XXXX
+    - icon: globe
+      text: Sainbiose Profile
+      href: https://sainbiose-lab.fr/team/XXXXX
+    - icon: envelope
+      text: Email
+      href: mailto:bastien.sauty@polytechnique.edu
+---
+
+<style>
+  /* Add horizontal space between image and text on desktop screens */
+  @media (min-width: 768px) {
+    .quarto-about-solana .about-image {
+      margin-left: 3rem !important; 
+    }
+  }
+</style>
+
+:::{#hero-heading}
+:::
+
+*In Progress*
+
+<script type="application/javascript" src="../../resources/pages_style/custom_hal.js"></script>
+<script type="application/javascript" src="../../resources/pages_style/carousel.js"></script>

@@ -2,7 +2,7 @@
 title: "Qian Wu"
 subtitle: "Former PhD Student (Defended 2025)"
 image: ../../resources/images/members/phds/qian_wu.jpeg
-description: "**Current Position:** Research engineer at EPF"
+description: "**Next Position:** Research engineer at EPF"
 about:
   id: hero-heading
   template: solana

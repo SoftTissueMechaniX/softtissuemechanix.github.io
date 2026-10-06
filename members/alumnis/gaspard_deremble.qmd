@@ -2,7 +2,7 @@
 title: "Gaspard Deremble"
 subtitle: "Former Intern (Dec 2025 - Mar 2026)"
 image: ../../resources/images/members/interns/gaspard_deremble.jpeg
-description: "**Current Position:** Student at École Polytechnique"
+description: "**Next Position:** Student at École Polytechnique"
 about:
   id: hero-heading
   template: solana
