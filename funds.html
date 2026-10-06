@@ -84,7 +84,7 @@ ul.task-list li input[type="checkbox"] {
 
 <link rel="stylesheet" href="resources/pages_style/styles.css">
 <meta property="og:title" content="Fundings – Soft Tissue Biomechanics Group @ LMS">
-<meta property="og:image" content="https://softtissuemechanix.github.io/resources/images/LMS_Building.jpg">
+<meta property="og:image" content="https://softtissuemechanix.github.io/resources/images/LMS_Building_1600.jpg">
 <meta property="og:site_name" content="Soft Tissue Biomechanics Group @ LMS">
 </head>
 
@@ -349,44 +349,46 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<!-- Each box uses the class .fund-card (hover effect defined in
+     resources/pages_style/styles.css). -->
 <div class="grid">
-<div class="g-col-12 g-col-md-6">
-<section id="launching-package-martaa" class="level4 border rounded p-4 shadow-sm h-100">
+<div class="g-col-12 g-col-md-6 reveal">
+<section id="launching-package-martaa" class="level4 fund-card border rounded p-4 shadow-sm h-100">
 <h4 class="anchored" data-anchor-id="launching-package-martaa">🚀 Launching Package MARTAA</h4>
 <p><span class="badge bg-primary"><strong>PI: Chloé Techens</strong></span> <span class="badge border border-primary text-primary"><a href="https://www.polytechnique.edu/recherche/opportunites-et-appels-projet">🌐 Launching Package</a></span></p>
 <p>Initial funding package supporting new faculty research activities.</p>
 </section>
 </div>
-<div class="g-col-12 g-col-md-6">
-<section id="anr-kayo" class="level4 border rounded p-4 shadow-sm h-100">
+<div class="g-col-12 g-col-md-6 reveal">
+<section id="anr-kayo" class="level4 fund-card border rounded p-4 shadow-sm h-100">
 <h4 class="anchored" data-anchor-id="anr-kayo">🩸 ANR KAYO</h4>
 <p><span class="badge bg-primary"><strong>Leading Group</strong></span> <span class="badge border border-primary text-primary"><a href="https://anr.fr/Projet-ANR-22-CE18-0030">🌐 ANR KAYO</a></span></p>
 <p>Microrheology of venous blood clots for the diagnosis of hypercoagulability.</p>
 </section>
 </div>
-<div class="g-col-12 g-col-md-6">
-<section id="premyom" class="level4 border rounded p-4 shadow-sm h-100">
+<div class="g-col-12 g-col-md-6 reveal">
+<section id="premyom" class="level4 fund-card border rounded p-4 shadow-sm h-100">
 <h4 class="anchored" data-anchor-id="premyom">👁️ Premyom</h4>
 <p><span class="badge bg-secondary"><strong>Partner</strong></span> <span class="badge border border-secondary text-secondary"><a href="https://premyom.com">🌐 premyom.com</a></span></p>
 <p>Prise en charge et Ralentissement de l’Epidémie de MYopie par l’Optique Médicale.</p>
 </section>
 </div>
-<div class="g-col-12 g-col-md-6">
-<section id="anr-rosaly" class="level4 border rounded p-4 shadow-sm h-100">
+<div class="g-col-12 g-col-md-6 reveal">
+<section id="anr-rosaly" class="level4 fund-card border rounded p-4 shadow-sm h-100">
 <h4 class="anchored" data-anchor-id="anr-rosaly">🧫 ANR ROSALY</h4>
 <p><span class="badge bg-secondary"><strong>Partner</strong></span> <span class="badge border border-secondary text-secondary"><a href="https://anr.fr/Projet-ANR-24-CE19-6123">🌐 ANR ROSALY</a></span></p>
 <p>Development of an <em>in vitro</em> vascular platform to study the patient-specific mechanobiological behaviour of human primary cells.</p>
 </section>
 </div>
-<div class="g-col-12 g-col-md-6">
-<section id="anr-michoco" class="level4 border rounded p-4 shadow-sm h-100">
+<div class="g-col-12 g-col-md-6 reveal">
+<section id="anr-michoco" class="level4 fund-card border rounded p-4 shadow-sm h-100">
 <h4 class="anchored" data-anchor-id="anr-michoco">🦷 ANR MICHOCO</h4>
 <p><span class="badge bg-secondary"><strong>Partner</strong></span> <span class="badge border border-secondary text-secondary"><a href="https://anr.fr/Projet-ANR-24-CE19-7567">🌐 ANR MICHOCO</a></span></p>
 <p>Molar-incisor hypomineralization: treatment decision assisted by optical coherence tomography.</p>
 </section>
 </div>
-<div class="g-col-12 g-col-md-6">
-<section id="previous-grant-example" class="level4 border rounded p-4 shadow-sm h-100">
+<div class="g-col-12 g-col-md-6 reveal">
+<section id="previous-grant-example" class="level4 fund-card border rounded p-4 shadow-sm h-100">
 <h4 class="anchored" data-anchor-id="previous-grant-example">🏛️ Previous Grant Example</h4>
 <p><span class="badge bg-secondary"><strong>Leading Group</strong></span></p>
 <p>Description of the past project goes here.</p>
@@ -397,6 +399,74 @@ ul.task-list li input[type="checkbox"] {
 
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
+<!-- =====================================================================
+     SoftTissueMechaniX — global scripts (inlined in every page through
+     `include-after-body` in _quarto.yml, so no relative-path issues in
+     sub-folders such as members/ or news/).
+     ===================================================================== -->
+<script>
+(function () {
+  document.documentElement.classList.add('stm-js');
+
+  /* ---------------------------------------------------------------
+     1. Anti-spam e-mails
+        Nothing in the generated HTML contains "name@domain", so
+        harvesting robots that read the raw page find nothing.
+        Usage (anywhere: page body, listing description...):
+          <span class="stm-email" data-user="first.last" data-domain="polytechnique.edu"></span>
+        Usage in YAML `about: links:`:
+          href: "#email:first.last:polytechnique.edu"
+     --------------------------------------------------------------- */
+  function protectEmails() {
+    document.querySelectorAll('.stm-email:not([data-done])').forEach(function (el) {
+      var addr = el.dataset.user + '@' + el.dataset.domain;
+      el.textContent = '';
+      if (el.closest('a')) {               // e.g. inside a listing card link
+        el.textContent = addr;
+      } else {
+        var a = document.createElement('a');
+        a.href = 'mai' + 'lto:' + addr;
+        a.textContent = addr;
+        el.appendChild(a);
+      }
+      el.dataset.done = '1';
+    });
+    document.querySelectorAll('a[href*="#email:"]').forEach(function (a) {
+      var h = a.getAttribute('href');           // Quarto may prefix it with "/"
+      var p = h.slice(h.indexOf('#email:') + 7).split(':');
+      a.setAttribute('href', 'mai' + 'lto:' + p[0] + '@' + p[1]);
+    });
+  }
+
+  /* ---------------------------------------------------------------
+     2. Reveal-on-scroll: any element with class "reveal"
+     --------------------------------------------------------------- */
+  var revealObserver = ('IntersectionObserver' in window)
+    ? new IntersectionObserver(function (entries) {
+        entries.forEach(function (e) {
+          if (e.isIntersecting) { e.target.classList.add('is-visible'); revealObserver.unobserve(e.target); }
+        });
+      }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' })
+    : null;
+  window.stmReveal = function (root) {
+    (root || document).querySelectorAll('.reveal:not(.is-visible)').forEach(function (el) {
+      if (revealObserver) revealObserver.observe(el); else el.classList.add('is-visible');
+    });
+  };
+
+  /* ---------------------------------------------------------------
+     3. Expose the real navbar height (for sticky sub-menus)
+     --------------------------------------------------------------- */
+  function navHeight() {
+    var h = document.getElementById('quarto-header');
+    if (h) document.documentElement.style.setProperty('--stm-nav-h', h.offsetHeight + 'px');
+  }
+
+  function init() { protectEmails(); window.stmReveal(); navHeight(); }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init); else init();
+  window.addEventListener('resize', navHeight);
+})();
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right

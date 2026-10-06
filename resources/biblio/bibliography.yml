@@ -1,3 +1,17 @@
+# =====================================================================
+# Publications database — used by publications.qmd (cards + compact list)
+# and research.qmd (related publications under each project).
+#
+# Mandatory : title, author, date ("YYYY-MM-DD"), journal, path (link/DOI)
+# Recommended: categories: ["<year>", "<type>"]  e.g. "Journal Article",
+#              "Preprint", "PhD Manuscript", "Conference"
+#              tags: research theme(s) -> Cornea | Eye | Clot | Hydrogel |
+#              Vascular | Magnetic | Others  (links the paper to research.qmd)
+# Optional   : image: "resources/images/publications/<file>.png"  (first page;
+#                     otherwise a coloured cover is generated automatically)
+#              abstract: "..."   keywords: "A | B | C"
+# =====================================================================
+
 - title: "Volumetric strain measurements in human cornea : characterization of deswelling, inflation responses and stromal striae microstructures"
   author: "Qian Wu"
   date: "2025-01-01"

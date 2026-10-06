@@ -84,20 +84,20 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    const listingTargetEl = window.document.querySelector('#listing-news-list .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-description','listing-categories','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-description','listing-categories','listing-image','listing-path',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-project","listing-website","listing-format","listing-engines","listing-language","listing-title","listing-description","listing-author","listing-date","listing-categories","listing-image","listing-draft","listing-about","listing-path","listing-outputHref","listing-date-modified","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+    window['quarto-listings']['listing-news-list'] = new List('listing-news-list', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -146,11 +146,12 @@ window.Quarto = {
 <meta property="og:title" content="News and events – Soft Tissue Biomechanics Group @ LMS">
 <meta property="og:image" content="https://softtissuemechanix.github.io/resources/images/news/euromech_670.png">
 <meta property="og:site_name" content="Soft Tissue Biomechanics Group @ LMS">
+<meta property="og:image:alt" content="">
 <meta property="og:image:height" content="117">
 <meta property="og:image:width" content="128">
 </head>
 
-<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+<body class="nav-fixed fullcontent quarto-light"><script id="quarto-html-before-body" type="application/javascript">
     const toggleBodyColorMode = (bsSheetEl) => {
       const mode = bsSheetEl.getAttribute("data-mode");
       const bodyEl = window.document.querySelector("body");
@@ -385,9 +386,7 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Q29uZmVyZW5jZQ==">Conference <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R3JhbnQ=">Grant <span class="quarto-category-count">(1)</span></div></div></div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -411,100 +410,253 @@ window.Quarto = {
 </header>
 
 
-<div class="lead">
-<p>Stay up to date with the latest developments from our group, including:</p>
+<div class="lead stm-intro-left">
+<p>Stay up to date with the latest developments from our group: thesis defenses, conference presentations, awards and grants. Upcoming events are listed first and move automatically to <em>Past</em> once their date is over.</p>
 </div>
-<ul>
-<li>Recent thesis defenses.</li>
-<li>Conference presentations.</li>
-<li>Awards and grants.</li>
-</ul>
-<hr>
+<div id="listing-news-list" class="quarto-listing quarto-listing-container-custom">
+<!--
+  =====================================================================
+  News listing template (used by news.qmd).
+  Every news/*.qmd is rendered once in a hidden "source" box; the script
+  below then moves each card to "Forthcoming" or "Past" by comparing the
+  event date with TODAY in the visitor's browser — so an event switches
+  automatically from Forthcoming to Past, no re-render needed.
 
+  Front-matter fields used in news/*.qmd:
+    date:      "YYYY-MM-DD"   event date (mandatory)
+    end-date:  "YYYY-MM-DD"   optional, last day of a multi-day event
+    location:  "Rennes"       optional
+    title, description, categories, image
+  =====================================================================
+-->
+<div class="news-app">
+<div id="news-filters" class="news-filters" aria-label="Filter by category">
 
-
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-    <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-      <option value="" disabled="" selected="" hidden="">Order By</option>
-      <option value="index" data-direction="asc">Default</option>
-      <option value="listing-title" data-direction="asc">
-        Title
-      </option>
-      <option value="listing-date-sort" data-direction="asc">
-        Date - Oldest
-      </option>
-      <option value="listing-date-sort" data-direction="desc">
-        Date - Newest
-      </option>
-    </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
 </div>
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="Q29uZmVyZW5jZQ==" data-listing-date-sort="1775779200000" data-listing-file-modified-sort="1791293739066" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="181">
-<div class="thumbnail"><a href="./news/2026-04-10-euromech.html" class="no-external">
+<h2 class="news-heading anchored" id="forthcoming">
+<span class="news-pulse" aria-hidden="true"></span> Forthcoming <span id="news-upcoming-count" class="count">0</span>
+</h2>
+<div id="news-upcoming" class="news-upcoming">
 
-<img loading="lazy" src="./resources/images/news/euromech_670.png" class="thumbnail-image">
+</div>
+<p class="news-empty" id="news-upcoming-empty">
+No upcoming event for the moment — stay tuned!
+</p>
+<h2 class="news-heading anchored" id="past">
+Past <span id="news-past-count" class="count">0</span>
+</h2>
+<div id="news-past" class="news-timeline">
 
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./news/2026-04-10-euromech.html" class="no-external">Euromech 670</a>
+</div>
+<p class="news-empty" id="news-past-empty" hidden="">
+Nothing here yet.
+</p>
+<div id="news-source" hidden="">
+<article class="news-card reveal" data-index="0" data-categories="Q29uZmVyZW5jZQ==" data-listing-date-sort="1775779200000" data-listing-file-modified-sort="1791295689028" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="181" data-date="2026-04-10" data-end="" data-cats="Conference">
+<a href="./news/2026-04-10-euromech.html">
+<div class="news-date" aria-hidden="true">
+<span class="d"></span><span class="m"></span><span class="y"></span>
+</div>
+<div class="news-body">
+<div class="news-meta">
+<p><span class="news-cat">Conference</span></p>
+</div>
+<h3 class="anchored">
+Euromech 670
 </h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Q29uZmVyZW5jZQ=='); return false;">Conference</div>
-
+<p>
+J-M. Allain and T. Lavigne presented their work in the field of cornea mechanics and porous media mechanics at Euromech 670 in Rennes.
+</p>
+<p><span class="news-countdown" hidden=""></span></p>
 </div>
-<div class="delink listing-description"><a href="./news/2026-04-10-euromech.html" class="no-external">
-<p>J-M. Allain and T. Lavigne presented their work in the field of cornea mechanics and porous media mechanics at Euromech 670 in Rennes.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./news/2026-04-10-euromech.html" class="no-external">
-<div class="listing-date">
-Apr 10, 2026
+<div class="news-thumb">
+<img src="./resources/images/news/euromech_670.png" alt="" loading="lazy">
 </div>
 </a>
+</article>
+<article class="news-card reveal" data-index="1" data-categories="R3JhbnQ=" data-listing-date-sort="1753920000000" data-listing-file-modified-sort="1791295689028" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="302" data-date="2025-07-31" data-end="" data-cats="Grant">
+<a href="./news/2025-07-31-aap_cp.html">
+<div class="news-date" aria-hidden="true">
+<span class="d"></span><span class="m"></span><span class="y"></span>
 </div>
+<div class="news-body">
+<div class="news-meta">
+<p><span class="news-cat">Grant</span></p>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="R3JhbnQ=" data-listing-date-sort="1753920000000" data-listing-file-modified-sort="1791293739066" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="302">
-<div class="thumbnail"><a href="./news/2025-07-31-aap_cp.html" class="no-external">
-
-<img loading="lazy" src="./resources/images/news/F2M.png" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./news/2025-07-31-aap_cp.html" class="no-external">Coup de Pouce</a>
+<h3 class="anchored">
+Coup de Pouce
 </h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('R3JhbnQ='); return false;">Grant</div>
-
+<p>
+C. Techens recipient of the Coup de Pouce 2025 call for project from the F2M.
+</p>
+<p><span class="news-countdown" hidden=""></span></p>
 </div>
-<div class="delink listing-description"><a href="./news/2025-07-31-aap_cp.html" class="no-external">
-<p>C. Techens recipient of the Coup de Pouce 2025 call for project from the F2M.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./news/2025-07-31-aap_cp.html" class="no-external">
-<div class="listing-date">
-Jul 31, 2025
+<div class="news-thumb">
+<img src="./resources/images/news/F2M.png" alt="" loading="lazy">
 </div>
 </a>
+</article>
 </div>
 </div>
-</div>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+  function parse(s) {                       // "YYYY-MM-DD" -> local midnight
+    var m = /^(\d{4})-(\d{2})-(\d{2})/.exec(s || '');
+    return m ? new Date(+m[1], +m[2] - 1, +m[3]) : null;
+  }
+  var today = new Date(); today.setHours(0, 0, 0, 0);
+  var DAY = 864e5;
+
+  var src = document.getElementById('news-source');
+  var up = document.getElementById('news-upcoming');
+  var past = document.getElementById('news-past');
+  var cards = Array.prototype.slice.call(src.querySelectorAll('.news-card')).map(function (el) {
+    var start = parse(el.dataset.date), end = parse(el.dataset.end) || start;
+    return { el: el, start: start, end: end, cats: el.dataset.cats ? el.dataset.cats.split('|') : [] };
+  }).filter(function (c) { return c.start; });
+
+  cards.forEach(function (c) {
+    var b = c.el.querySelector('.news-date');
+    b.querySelector('.d').textContent = c.start.getDate();
+    b.querySelector('.m').textContent = MONTHS[c.start.getMonth()];
+    b.querySelector('.y').textContent = c.start.getFullYear();
+  });
+
+  var upcoming = cards.filter(function (c) { return c.end >= today; })
+                      .sort(function (a, b) { return a.start - b.start; });   // soonest first
+  var older = cards.filter(function (c) { return c.end < today; })
+                   .sort(function (a, b) { return b.start - a.start; });      // newest first
+
+  upcoming.forEach(function (c) {
+    var days = Math.round((c.start - today) / DAY);
+    var cd = c.el.querySelector('.news-countdown');
+    cd.hidden = false;
+    cd.textContent = days <= 0 ? (c.end > c.start ? 'Happening now' : 'Today')
+                   : days === 1 ? 'Tomorrow' : 'In ' + days + ' days';
+    up.appendChild(c.el);
+  });
+  var lastYear = null;
+  older.forEach(function (c) {
+    var y = c.start.getFullYear();
+    if (y !== lastYear) {
+      var h = document.createElement('div');
+      h.className = 'news-year'; h.textContent = y; h.dataset.year = y;
+      past.appendChild(h); lastYear = y;
+    }
+    c.el.dataset.year = y;
+    past.appendChild(c.el);
+  });
+
+  /* Category filter chips */
+  var cats = [];
+  cards.forEach(function (c) { c.cats.forEach(function (k) { if (cats.indexOf(k) < 0) cats.push(k); }); });
+  cats.sort();
+  var box = document.getElementById('news-filters');
+  if (cats.length > 1) {
+    ['All'].concat(cats).forEach(function (k) {
+      var bt = document.createElement('button');
+      bt.type = 'button'; bt.textContent = k; if (k === 'All') bt.classList.add('active');
+      bt.addEventListener('click', function () {
+        box.querySelectorAll('button').forEach(function (x) { x.classList.toggle('active', x === bt); });
+        apply(k);
+      });
+      box.appendChild(bt);
+    });
+  }
+
+  function apply(k) {
+    cards.forEach(function (c) { c.el.classList.toggle('news-hidden', k !== 'All' && c.cats.indexOf(k) < 0); });
+    past.querySelectorAll('.news-year').forEach(function (h) {
+      var any = past.querySelector('.news-card[data-year="' + h.dataset.year + '"]:not(.news-hidden)');
+      h.classList.toggle('news-hidden', !any);
+    });
+    var nUp = up.querySelectorAll('.news-card:not(.news-hidden)').length;
+    var nPast = past.querySelectorAll('.news-card:not(.news-hidden)').length;
+    document.getElementById('news-upcoming-count').textContent = nUp;
+    document.getElementById('news-past-count').textContent = nPast;
+    document.getElementById('news-upcoming-empty').hidden = nUp > 0;
+    document.getElementById('news-past-empty').hidden = nPast > 0;
+  }
+  apply('All');
+  if (window.stmReveal) window.stmReveal(); else cards.forEach(function (c) { c.el.classList.add('is-visible'); });
+});
+</script>
 <div class="listing-no-matching d-none">No matching items</div>
-</div><a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
+</div>
+
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
+<!-- =====================================================================
+     SoftTissueMechaniX — global scripts (inlined in every page through
+     `include-after-body` in _quarto.yml, so no relative-path issues in
+     sub-folders such as members/ or news/).
+     ===================================================================== -->
+<script>
+(function () {
+  document.documentElement.classList.add('stm-js');
+
+  /* ---------------------------------------------------------------
+     1. Anti-spam e-mails
+        Nothing in the generated HTML contains "name@domain", so
+        harvesting robots that read the raw page find nothing.
+        Usage (anywhere: page body, listing description...):
+          <span class="stm-email" data-user="first.last" data-domain="polytechnique.edu"></span>
+        Usage in YAML `about: links:`:
+          href: "#email:first.last:polytechnique.edu"
+     --------------------------------------------------------------- */
+  function protectEmails() {
+    document.querySelectorAll('.stm-email:not([data-done])').forEach(function (el) {
+      var addr = el.dataset.user + '@' + el.dataset.domain;
+      el.textContent = '';
+      if (el.closest('a')) {               // e.g. inside a listing card link
+        el.textContent = addr;
+      } else {
+        var a = document.createElement('a');
+        a.href = 'mai' + 'lto:' + addr;
+        a.textContent = addr;
+        el.appendChild(a);
+      }
+      el.dataset.done = '1';
+    });
+    document.querySelectorAll('a[href*="#email:"]').forEach(function (a) {
+      var h = a.getAttribute('href');           // Quarto may prefix it with "/"
+      var p = h.slice(h.indexOf('#email:') + 7).split(':');
+      a.setAttribute('href', 'mai' + 'lto:' + p[0] + '@' + p[1]);
+    });
+  }
+
+  /* ---------------------------------------------------------------
+     2. Reveal-on-scroll: any element with class "reveal"
+     --------------------------------------------------------------- */
+  var revealObserver = ('IntersectionObserver' in window)
+    ? new IntersectionObserver(function (entries) {
+        entries.forEach(function (e) {
+          if (e.isIntersecting) { e.target.classList.add('is-visible'); revealObserver.unobserve(e.target); }
+        });
+      }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' })
+    : null;
+  window.stmReveal = function (root) {
+    (root || document).querySelectorAll('.reveal:not(.is-visible)').forEach(function (el) {
+      if (revealObserver) revealObserver.observe(el); else el.classList.add('is-visible');
+    });
+  };
+
+  /* ---------------------------------------------------------------
+     3. Expose the real navbar height (for sticky sub-menus)
+     --------------------------------------------------------------- */
+  function navHeight() {
+    var h = document.getElementById('quarto-header');
+    if (h) document.documentElement.style.setProperty('--stm-nav-h', h.offsetHeight + 'px');
+  }
+
+  function init() { protectEmails(); window.stmReveal(); navHeight(); }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init); else init();
+  window.addEventListener('resize', navHeight);
+})();
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right

@@ -41,6 +41,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b626d73c4c936ccc3cb08be7d45d1df6.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
@@ -79,12 +80,14 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
 
 
 <link rel="stylesheet" href="resources/pages_style/styles.css">
 <meta property="og:title" content="Research Activities – Soft Tissue Biomechanics Group @ LMS">
 <meta property="og:image" content="https://softtissuemechanix.github.io/resources/images/projects/cornea_placeholder.png">
 <meta property="og:site_name" content="Soft Tissue Biomechanics Group @ LMS">
+<meta property="og:image:alt" content="Cornea">
 <meta property="og:image:height" content="1536">
 <meta property="og:image:width" content="2816">
 </head>
@@ -326,115 +329,258 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<div class="quarto-about-solana column-page">
-  <div class="about-entity">
-    <div class="entity-contents">
-      <header id="title-block-header" class="quarto-title-block default">
+<main class="content column-page" id="quarto-document-content">
+
+
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Research Activities</h1>
 </div>
+
+
+
 <div class="quarto-title-meta column-page">
+
+    
+  
+    
   </div>
-</header> 
-      <div class="about-contents"><main class="content column-page" id="quarto-document-content">
+  
+
+
+</header>
+
 
 <div class="lead">
 <p>Our group specializes in the continuum mechanics of soft, living, and active materials. By bridging experimental characterization, advanced bioimaging, and state-of-the-art computational modeling, we tackle critical challenges in physiology, mechanobiology, and tissue engineering.</p>
 </div>
-<div class="d-flex flex-wrap gap-2 mb-5 mt-4">
-<p><a href="#cornea" class="btn btn-outline-primary mb-2">👁️ Cornea Mechanics</a> <a href="#eye" class="btn btn-outline-primary mb-2">👁️‍🗨️ Ocular Mechanics</a> <a href="#clot" class="btn btn-outline-primary mb-2">🩸 Blood Clots</a> <a href="#vascular" class="btn btn-outline-primary mb-2">🧫 Vessels-on-a-Chip</a> <a href="#magneto" class="btn btn-outline-primary mb-2">🧲 Magneto-Active Biomaterials</a> <a href="#others" class="btn btn-outline-primary mb-2">🔬 Soft Matter &amp; Methods</a></p>
+<div id="stm-progress"></div>
+<!-- Sticky menu: the active entry follows the scroll (see script at the bottom) -->
+<div class="stm-subnav">
+<p><a href="#cornea">👁️ Cornea Mechanics</a> <a href="#eye">👁️‍🗨️ Ocular Mechanics</a> <a href="#clot">🩸 Blood Clots</a> <a href="#vascular">🧫 Vessels-on-a-Chip</a> <a href="#magneto">🧲 Magneto-Active Biomaterials</a> <a href="#others">🔬 Soft Matter &amp; Methods</a></p>
 </div>
-<hr>
-<div id="cornea" style="padding-top: 2rem;">
+<div id="cornea" class="project-section">
+<div class="grid align-items-center">
+<div class="g-col-12 g-col-md-5 project-media reveal reveal-left">
+<div class="project-figure">
+<p><img src="resources/images/projects/cornea_placeholder.png" class="img-fluid" style="width:100.0%" alt="Cornea"></p>
 </div>
-<div class="grid align-items-center mb-5">
-<div class="g-col-12 g-col-md-4">
-<p><img src="resources/images/projects/cornea_placeholder.png" class="rounded shadow-sm img-fluid" style="width:100.0%"></p>
 </div>
-<section id="corneal-mechanics-refractive-surgery" class="level2 g-col-12 g-col-md-8">
-<h2 data-anchor-id="corneal-mechanics-refractive-surgery">Corneal Mechanics &amp; Refractive Surgery</h2>
+<div class="g-col-12 g-col-md-7 reveal">
+<p><span class="stm-num">01 / 06 · Cornea</span></p>
+<section id="corneal-mechanics-refractive-surgery" class="level2">
+<h2 class="anchored" data-anchor-id="corneal-mechanics-refractive-surgery">Corneal Mechanics &amp; Refractive Surgery</h2>
 <p>We investigate the intricate lamellar microstructure of the healthy and pathological cornea to predict its response to surgical interventions and degenerative diseases. Our multiscale approach combines advanced experimental testing (bulge tests, Optical Coherence Tomography, and 3D Digital Volume Correlation) with custom, microstructure-informed finite element models to characterize anisotropy, structural gradients, and active collagen remodeling.</p>
 <p><strong>Key topics:</strong> <span class="badge border border-secondary text-secondary mb-1">Corneal Anisotropy</span> <span class="badge border border-secondary text-secondary mb-1">OCT &amp; DVC Imaging</span> <span class="badge border border-secondary text-secondary mb-1">Refractive Surgery Simulation</span></p>
-<p><a href="publications.html?search=Cornea" class="btn btn-sm btn-primary mt-3">📚 View Relevant Publications</a></p>
+<div class="project-pubs" data-tags="Cornea">
+
+</div>
+<p><a href="publications.html?tag=Cornea" class="btn btn-sm btn-primary mt-3 project-pubs-btn">📚 View relevant publications</a></p>
 </section>
 </div>
-<hr class="text-muted">
-<div id="eye" style="padding-top: 2rem;">
 </div>
-<div class="grid align-items-center mb-5 mt-4">
-<div class="g-col-12 g-col-md-4">
-<p><img src="resources/images/projects/eye_placeholder.png" class="rounded shadow-sm img-fluid" style="width:100.0%"></p>
 </div>
-<section id="full-ocular-mechanics-imaging" class="level2 g-col-12 g-col-md-8">
-<h2 data-anchor-id="full-ocular-mechanics-imaging">Full Ocular Mechanics &amp; Imaging</h2>
+<div id="eye" class="project-section flip">
+<div class="grid align-items-center">
+<div class="g-col-12 g-col-md-5 project-media reveal reveal-right">
+<div class="project-figure">
+<p><img src="resources/images/projects/eye_placeholder.png" class="img-fluid" style="width:100.0%" alt="Ocular mechanics"></p>
+</div>
+</div>
+<div class="g-col-12 g-col-md-7 reveal">
+<p><span class="stm-num">02 / 06 · Ocular mechanics</span></p>
+<section id="full-ocular-mechanics-imaging" class="level2">
+<h2 class="anchored" data-anchor-id="full-ocular-mechanics-imaging">Full Ocular Mechanics &amp; Imaging</h2>
 <p>Beyond the cornea, we model the mechanical environment of the entire eye globe. This includes utilizing AI-based segmentation on MRI data to generate patient-specific meshes of the eye and extraocular muscles. By simulating muscular contraction, we characterize the influence of eye movements on long-term ocular growth, remodeling, and the epidemic progression of myopia during childhood, paving the way for medical optics interventions.</p>
 <p><strong>Key topics:</strong> <span class="badge border border-secondary text-secondary mb-1">Extraocular Muscles &amp; Myopia</span> <span class="badge border border-secondary text-secondary mb-1">AI MRI Segmentation</span> <span class="badge border border-secondary text-secondary mb-1">Growth &amp; Remodeling</span></p>
-<p><a href="publications.html?search=Eye" class="btn btn-sm btn-primary mt-3">📚 View Relevant Publications</a></p>
+<div class="project-pubs" data-tags="Eye">
+
+</div>
+<p><a href="publications.html?tag=Eye" class="btn btn-sm btn-primary mt-3 project-pubs-btn">📚 View relevant publications</a></p>
 </section>
 </div>
-<hr class="text-muted">
-<div id="clot" style="padding-top: 2rem;">
 </div>
-<div class="grid align-items-center mb-5 mt-4">
-<div class="g-col-12 g-col-md-4">
-<p><img src="resources/images/projects/clot_placeholder.png" class="rounded shadow-sm img-fluid" style="width:100.0%"></p>
 </div>
-<section id="mechanics-of-blood-clots-hemostasis" class="level2 g-col-12 g-col-md-8">
-<h2 data-anchor-id="mechanics-of-blood-clots-hemostasis">Mechanics of Blood Clots &amp; Hemostasis</h2>
+<div id="clot" class="project-section">
+<div class="grid align-items-center">
+<div class="g-col-12 g-col-md-5 project-media reveal reveal-left">
+<div class="project-figure">
+<p><img src="resources/images/projects/clot_placeholder.png" class="img-fluid" style="width:100.0%" alt="Blood clots"></p>
+</div>
+</div>
+<div class="g-col-12 g-col-md-7 reveal">
+<p><span class="stm-num">03 / 06 · Blood clots</span></p>
+<section id="mechanics-of-blood-clots-hemostasis" class="level2">
+<h2 class="anchored" data-anchor-id="mechanics-of-blood-clots-hemostasis">Mechanics of Blood Clots &amp; Hemostasis</h2>
 <p>Understanding the mechanics of thrombus formation and dissolution is crucial for diagnosing and tackling cardiovascular diseases. By coupling solid mechanics with advanced optical tools (biophotonics), we characterize the 3D microstructural architecture and microrheology of venous blood clots. Our multiscale approach quantifies fibrin network hypercoagulability to predict clot stability and embolization risks under physiological conditions.</p>
 <p><strong>Key topics:</strong> <span class="badge border border-secondary text-secondary mb-1">Venous Microrheology</span> <span class="badge border border-secondary text-secondary mb-1">Thrombus Visco-hyperelasticity</span> <span class="badge border border-secondary text-secondary mb-1">Hypercoagulability</span></p>
-<p><a href="publications.html?search=Clot" class="btn btn-sm btn-primary mt-3">📚 View Relevant Publications</a></p>
+<div class="project-pubs" data-tags="Clot">
+
+</div>
+<p><a href="publications.html?tag=Clot" class="btn btn-sm btn-primary mt-3 project-pubs-btn">📚 View relevant publications</a></p>
 </section>
 </div>
-<hr class="text-muted">
-<div id="vascular" style="padding-top: 2rem;">
 </div>
-<div class="grid align-items-center mb-5 mt-4">
-<div class="g-col-12 g-col-md-4">
-<p><img src="resources/images/projects/vascular_placeholder.png" class="rounded shadow-sm img-fluid" style="width:100.0%"></p>
 </div>
-<section id="vascular-mechanobiology-vessels-on-a-chip" class="level2 g-col-12 g-col-md-8">
-<h2 data-anchor-id="vascular-mechanobiology-vessels-on-a-chip">Vascular Mechanobiology &amp; Vessels-on-a-Chip</h2>
+<div id="vascular" class="project-section flip">
+<div class="grid align-items-center">
+<div class="g-col-12 g-col-md-5 project-media reveal reveal-right">
+<div class="project-figure">
+<p><img src="resources/images/projects/vascular_placeholder.png" class="img-fluid" style="width:100.0%" alt="Vessels-on-a-chip"></p>
+</div>
+</div>
+<div class="g-col-12 g-col-md-7 reveal">
+<p><span class="stm-num">04 / 06 · Vessels-on-a-chip</span></p>
+<section id="vascular-mechanobiology-vessels-on-a-chip" class="level2">
+<h2 class="anchored" data-anchor-id="vascular-mechanobiology-vessels-on-a-chip">Vascular Mechanobiology &amp; Vessels-on-a-Chip</h2>
 <p>To recreate the native cellular microenvironment, we develop <em>in vitro</em> vascular platforms (vessels-on-a-chip) utilizing bespoke collagen hydrogels. These platforms allow us to study the patient-specific mechanobiology of human primary Smooth Muscle Cells (SMCs) and Endothelial Cells. By engineering dynamic cyclic perfusion systems, we mimic physiological mechanical loading and track mechanotransduction pathways—such as YAP/TAZ—that drive vascular aging, phenotypic switching, and aortic aneurysms.</p>
 <p><strong>Key topics:</strong> <span class="badge border border-secondary text-secondary mb-1">Vessels-on-a-chip</span> <span class="badge border border-secondary text-secondary mb-1">Patient-Specific Mechanobiology</span> <span class="badge border border-secondary text-secondary mb-1">Endothelial Crosstalk</span></p>
-<p><a href="publications.html?search=Hydrogel" class="btn btn-sm btn-primary mt-3">📚 View Relevant Publications</a></p>
+<div class="project-pubs" data-tags="Hydrogel,Vascular">
+
+</div>
+<p><a href="publications.html?tag=Hydrogel,Vascular" class="btn btn-sm btn-primary mt-3 project-pubs-btn">📚 View relevant publications</a></p>
 </section>
 </div>
-<hr class="text-muted">
-<div id="magneto" style="padding-top: 2rem;">
 </div>
-<div class="grid align-items-center mb-5 mt-4">
-<div class="g-col-12 g-col-md-4">
-<p><img src="resources/images/projects/magnetic_placeholder.png" class="rounded shadow-sm img-fluid" style="width:100.0%"></p>
 </div>
-<section id="magneto-active-biomaterials-cell-stimulation" class="level2 g-col-12 g-col-md-8">
-<h2 data-anchor-id="magneto-active-biomaterials-cell-stimulation">Magneto-Active Biomaterials &amp; Cell Stimulation</h2>
+<div id="magneto" class="project-section">
+<div class="grid align-items-center">
+<div class="g-col-12 g-col-md-5 project-media reveal reveal-left">
+<div class="project-figure">
+<p><img src="resources/images/projects/magnetic_placeholder.png" class="img-fluid" style="width:100.0%" alt="Magneto-active biomaterials"></p>
+</div>
+</div>
+<div class="g-col-12 g-col-md-7 reveal">
+<p><span class="stm-num">05 / 06 · Magneto-active biomaterials</span></p>
+<section id="magneto-active-biomaterials-cell-stimulation" class="level2">
+<h2 class="anchored" data-anchor-id="magneto-active-biomaterials-cell-stimulation">Magneto-Active Biomaterials &amp; Cell Stimulation</h2>
 <p>To isolate the effect of 3D mechanical stress on cellular behavior, we engineer smart, magneto-responsive hydrogels. By embedding magnetic nanoparticles (Fe3O4) within collagen matrices, we can apply highly controlled, dynamic field gradients to stimulate resident cells. Coupled with multiphoton microscopy and Digital Volume Correlation, this novel platform allows us to precisely quantify how local mechanical forces dictate matrix remodeling and SMC contractility.</p>
 <p><strong>Key topics:</strong> <span class="badge border border-secondary text-secondary mb-1">Magneto-responsive Hydrogels</span> <span class="badge border border-secondary text-secondary mb-1">Matrix Remodeling</span></p>
-<p><a href="publications.html?search=Hydrogel" class="btn btn-sm btn-primary mt-3">📚 View Relevant Publications</a></p>
+<div class="project-pubs" data-tags="Hydrogel,Magnetic">
+
+</div>
+<p><a href="publications.html?tag=Hydrogel,Magnetic" class="btn btn-sm btn-primary mt-3 project-pubs-btn">📚 View relevant publications</a></p>
 </section>
 </div>
-<hr class="text-muted">
-<div id="others" style="padding-top: 2rem;">
 </div>
-<div class="grid align-items-center mb-5 mt-4">
-<div class="g-col-12 g-col-md-4">
-<p><img src="resources/images/projects/others_placeholder.png" class="rounded shadow-sm img-fluid" style="width:100.0%"></p>
 </div>
-<section id="soft-matter-mechanics-advanced-numerical-methods" class="level2 g-col-12 g-col-md-8">
-<h2 data-anchor-id="soft-matter-mechanics-advanced-numerical-methods">Soft Matter Mechanics &amp; Advanced Numerical Methods</h2>
+<div id="others" class="project-section flip">
+<div class="grid align-items-center">
+<div class="g-col-12 g-col-md-5 project-media reveal reveal-right">
+<div class="project-figure">
+<p><img src="resources/images/projects/others_placeholder.png" class="img-fluid" style="width:100.0%" alt="Methods"></p>
+</div>
+</div>
+<div class="g-col-12 g-col-md-7 reveal">
+<p><span class="stm-num">06 / 06 · Methods</span></p>
+<section id="soft-matter-mechanics-advanced-numerical-methods" class="level2">
+<h2 class="anchored" data-anchor-id="soft-matter-mechanics-advanced-numerical-methods">Soft Matter Mechanics &amp; Advanced Numerical Methods</h2>
 <p>We push the boundaries of computational mechanics to decipher complex biological interactions. Our work includes multi-scale poroviscoelastic modeling of living tissues and hydrogels, capturing the dynamics of interstitial fluid and fibrillar architectures. By coupling 3D Digital Volume Correlation (DVC) on high-resolution OCT images with inverse problem frameworks, we successfully map local tissue deformations. This fuels our pioneering work in 3D Traction Force Microscopy (TFM), allowing us to measure the exact micromechanical stresses exerted by cells within their 3D native environment.</p>
 <p><strong>Key topics:</strong> <span class="badge border border-secondary text-secondary mb-1">3D Traction Force Microscopy</span> <span class="badge border border-secondary text-secondary mb-1">Poroviscoelasticity</span> <span class="badge border border-secondary text-secondary mb-1">Inverse Problems</span></p>
-<p><a href="publications.html?search=Others" class="btn btn-sm btn-primary mt-3">📚 View Relevant Publications</a></p>
+<div class="project-pubs" data-tags="Others">
+
+</div>
+<p><a href="publications.html?tag=Others" class="btn btn-sm btn-primary mt-3 project-pubs-btn">📚 View relevant publications</a></p>
 </section>
 </div>
-
-
-<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main></div>
-    </div>
-  </div>
 </div>
- <!-- /main -->
+</div>
+<!-- Related publications come from resources/biblio/bibliography.yml:
+     a paper appears under a project when one of its `tags` matches data-tags. -->
+<script src="resources/pages_style/publications.js"></script>
+<script>
+  /* Scroll-spy for the sticky menu + reading progress bar */
+  (function () {
+    var links = Array.prototype.slice.call(document.querySelectorAll('.stm-subnav a'));
+    var bar = document.getElementById('stm-progress');
+    var sections = links.map(function (a) { return document.getElementById(a.hash.slice(1)); }).filter(Boolean);
+    function onScroll() {
+      var h = document.documentElement;
+      bar.style.width = (100 * h.scrollTop / Math.max(1, h.scrollHeight - h.clientHeight)) + '%';
+      var y = window.scrollY + window.innerHeight * 0.35, cur = null;
+      sections.forEach(function (s) { if (s.getBoundingClientRect().top + window.scrollY <= y) cur = s.id; });
+      links.forEach(function (a) {
+        var on = a.hash === '#' + cur;
+        if (on && !a.classList.contains('active')) a.scrollIntoView({ block: 'nearest', inline: 'center' });
+        a.classList.toggle('active', on);
+      });
+    }
+    window.addEventListener('scroll', onScroll, { passive: true });
+    onScroll();
+  })();
+</script>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
+<!-- =====================================================================
+     SoftTissueMechaniX — global scripts (inlined in every page through
+     `include-after-body` in _quarto.yml, so no relative-path issues in
+     sub-folders such as members/ or news/).
+     ===================================================================== -->
+<script>
+(function () {
+  document.documentElement.classList.add('stm-js');
+
+  /* ---------------------------------------------------------------
+     1. Anti-spam e-mails
+        Nothing in the generated HTML contains "name@domain", so
+        harvesting robots that read the raw page find nothing.
+        Usage (anywhere: page body, listing description...):
+          <span class="stm-email" data-user="first.last" data-domain="polytechnique.edu"></span>
+        Usage in YAML `about: links:`:
+          href: "#email:first.last:polytechnique.edu"
+     --------------------------------------------------------------- */
+  function protectEmails() {
+    document.querySelectorAll('.stm-email:not([data-done])').forEach(function (el) {
+      var addr = el.dataset.user + '@' + el.dataset.domain;
+      el.textContent = '';
+      if (el.closest('a')) {               // e.g. inside a listing card link
+        el.textContent = addr;
+      } else {
+        var a = document.createElement('a');
+        a.href = 'mai' + 'lto:' + addr;
+        a.textContent = addr;
+        el.appendChild(a);
+      }
+      el.dataset.done = '1';
+    });
+    document.querySelectorAll('a[href*="#email:"]').forEach(function (a) {
+      var h = a.getAttribute('href');           // Quarto may prefix it with "/"
+      var p = h.slice(h.indexOf('#email:') + 7).split(':');
+      a.setAttribute('href', 'mai' + 'lto:' + p[0] + '@' + p[1]);
+    });
+  }
+
+  /* ---------------------------------------------------------------
+     2. Reveal-on-scroll: any element with class "reveal"
+     --------------------------------------------------------------- */
+  var revealObserver = ('IntersectionObserver' in window)
+    ? new IntersectionObserver(function (entries) {
+        entries.forEach(function (e) {
+          if (e.isIntersecting) { e.target.classList.add('is-visible'); revealObserver.unobserve(e.target); }
+        });
+      }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' })
+    : null;
+  window.stmReveal = function (root) {
+    (root || document).querySelectorAll('.reveal:not(.is-visible)').forEach(function (el) {
+      if (revealObserver) revealObserver.observe(el); else el.classList.add('is-visible');
+    });
+  };
+
+  /* ---------------------------------------------------------------
+     3. Expose the real navbar height (for sticky sub-menus)
+     --------------------------------------------------------------- */
+  function navHeight() {
+    var h = document.getElementById('quarto-header');
+    if (h) document.documentElement.style.setProperty('--stm-nav-h', h.offsetHeight + 'px');
+  }
+
+  function init() { protectEmails(); window.stmReveal(); navHeight(); }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init); else init();
+  window.addEventListener('resize', navHeight);
+})();
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
@@ -450,6 +596,13 @@ ul.task-list li input[type="checkbox"] {
       window.document.body.appendChild(a);
     }
     setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     
