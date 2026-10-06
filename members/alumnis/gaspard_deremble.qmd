@@ -1,0 +1,51 @@
+---
+title: "Gaspard Deremble"
+subtitle: "Former Intern (Dec 2025 - Mar 2026)"
+image: ../../resources/images/members/interns/gaspard_deremble.jpeg
+description: "**Current Position:** Student at École Polytechnique"
+about:
+  id: hero-heading
+  template: solana
+  image-width: 20em
+  image-shape: rounded
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/gaspard-deremble-74a1a42b6/
+---
+
+<style>
+  /* Add horizontal space between image and text on desktop screens */
+  @media (min-width: 768px) {
+    .quarto-about-solana .about-image {
+      margin-left: 3rem !important; 
+    }
+  }
+</style>
+
+:::{#hero-heading}
+:::
+
+**Gaspard Deremble** is a student at École Polytechnique and a former intern at the Laboratoire de Mécanique des Solides (LMS). During his 3-month internship, he focused on computational biomechanics and the development of advanced numerical tools for soft tissue modeling.
+
+---
+
+### Internship Overview
+
+**Project:** *Development of meshing tools and FE simulations for corneal mechanics*
+
+Gaspard's work centered on expanding the laboratory's computational capabilities by developing a package built upon the `dolfin_mech` Python library. His primary focus was on modeling the complex material properties of the cornea.
+
+His core contributions included:
+
+* **Computational Tool Development:** Contributing to a custom Python package based on `dolfin_mech` to streamline biomechanical modeling workflows.
+* **Advanced Meshing:** Utilizing **Gmsh** to build and adapt simplified 3D meshes specifically designed for human corneal geometry.
+* **Finite Element (FE) Simulations:** Running simulations to investigate how a gradient in material parameters across the thickness of the cornea impacts the resulting mechanical stress and strain fields.
+
+**Key topics:** [Finite Element Analysis]{.badge .border .border-secondary .text-secondary .mb-1} 
+[Gmsh]{.badge .border .border-secondary .text-secondary .mb-1} 
+[Python / dolfin_mech]{.badge .border .border-secondary .text-secondary .mb-1} 
+[Corneal Mechanics]{.badge .border .border-secondary .text-secondary .mb-1}
+
+<script type="application/javascript" src="../../resources/pages_style/custom_hal.js"></script>
+<script type="application/javascript" src="../../resources/pages_style/carousel.js"></script>

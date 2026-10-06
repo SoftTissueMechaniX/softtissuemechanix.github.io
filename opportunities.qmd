@@ -1,0 +1,55 @@
+---
+title: "Open Positions"
+format: html
+---
+
+::: {.lead}
+Join the Soft Tissue Biomechanics Group at LMS! We are always looking for motivated and talented individuals to contribute to our research in continuum mechanics, mechanobiology, and tissue engineering.
+:::
+
+---
+
+## Current Vacancies
+
+::: {.border .rounded .p-4 .bg-light .text-center .mb-5 .mt-4}
+<h5 class="text-muted mb-0">There are currently no specific funded positions open.</h5>
+<p class="text-muted mt-2 mb-0">However, we are always eager to discuss potential projects, fellowships, or future opportunities with outstanding candidates. Please see below for spontaneous applications.</p>
+:::
+
+## Spontaneous Applications
+
+We highly encourage spontaneous applications from enthusiastic Master's students, PhD candidates, and Postdoctoral researchers who share our passion for biomechanics. 
+
+If you are interested in joining our team, please follow these steps:
+
+::: {.grid .mt-4 .mb-4}
+
+::: {.g-col-12 .g-col-md-4}
+::: {.border .rounded .p-4 .text-center .h-100 .shadow-sm}
+<div style="font-size: 2.5rem; margin-bottom: 15px;">📝</div>
+#### 1. Fill the Form
+Head over to our Contact page and fill out the inquiry form to briefly introduce yourself and your research interests.
+:::
+:::
+
+::: {.g-col-12 .g-col-md-4}
+::: {.border .rounded .p-4 .text-center .h-100 .shadow-sm}
+<div style="font-size: 2.5rem; margin-bottom: 15px;">📄</div>
+#### 2. Prepare your CV
+Make sure your academic Curriculum Vitae is up to date, highlighting your relevant skills, background, and publications.
+:::
+:::
+
+::: {.g-col-12 .g-col-md-4}
+::: {.border .rounded .p-4 .text-center .h-100 .shadow-sm}
+<div style="font-size: 2.5rem; margin-bottom: 15px;">✉️</div>
+#### 3. Email the PIs
+Send an email directly to our Principal Investigators with your CV attached and a short message explaining why you'd like to join us.
+:::
+:::
+
+:::
+
+::: {.text-center .mt-5}
+[Go to Contact Page](contact.html){.btn .btn-primary .btn-lg .px-5}
+:::

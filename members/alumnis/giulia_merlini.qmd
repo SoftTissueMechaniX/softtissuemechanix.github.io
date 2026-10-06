@@ -1,0 +1,62 @@
+---
+title: "Giulia Merlini"
+subtitle: "Former PhD Student (Defended 2025)"
+image: ../../resources/images/members/phds/giulia_merlini.jpeg
+description: "**Current Position:** Postdoc at ENPC"
+about:
+  id: hero-heading
+  template: solana
+  image-width: 20em
+  image-shape: rounded
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/giulia-merlini-14056620a/
+    - icon: globe
+      text: Personal Website
+      href: https://team.inria.fr/matherials/team-members/giulia-merlini/
+    - icon: book
+      text: PhD Thesis
+      href: https://theses.fr/2025IPPAX031
+---
+
+<style>
+  /* Add horizontal space between image and text on desktop screens */
+  @media (min-width: 768px) {
+    .quarto-about-solana .about-image {
+      margin-left: 3rem !important; 
+    }
+  }
+</style>
+
+:::{#hero-heading}
+:::
+
+**Giulia Merlini** is a former PhD student who successfully defended her thesis in 2025. Her research operates at the intersection of applied mathematics, computational mechanics, and materials science, focusing on the theoretical and numerical modeling of complex materials.
+
+---
+
+### Background
+
+During her doctoral studies, Giulia worked in a highly multidisciplinary environment, collaborating closely with leading applied mathematics and mechanics research groups. In addition to her work at the **Laboratoire de Mécanique des Solides (LMS)**, she was strongly affiliated with the **MATHERIALS team at Inria** and the **CERMICS laboratory** at École des Ponts ParisTech. This unique background provided her with a robust foundation in scientific computing, mathematical analysis, and the mechanics of materials.
+
+---
+
+### PhD Overview & Expertise
+
+Giulia's doctoral research focused on developing advanced mathematical frameworks and numerical methods to simulate and understand material behavior. By leveraging rigorous mathematical tools, she tackled complex problems related to multiscale modeling and the structural properties of materials.
+
+Her core technical expertise includes:
+
+* **Mathematical Modeling:** Developing and analyzing theoretical models (such as PDEs) to describe the complex, non-linear behavior of materials.
+* **Numerical Simulation & Scientific Computing:** Implementing robust numerical methods to solve advanced mechanical and physical problems.
+* **Multiscale Methods:** Bridging the gap between microscopic structural properties and macroscopic mechanical responses.
+* **Applied Mathematics:** Applying rigorous analytical techniques to ensure the stability, accuracy, and efficiency of computational models.
+
+**Key topics:** [Applied Mathematics]{.badge .border .border-secondary .text-secondary .mb-1} 
+[Computational Mechanics]{.badge .border .border-secondary .text-secondary .mb-1} 
+[Multiscale Modeling]{.badge .border .border-secondary .text-secondary .mb-1} 
+[Scientific Computing]{.badge .border .border-secondary .text-secondary .mb-1}
+
+<script type="application/javascript" src="../../resources/pages_style/custom_hal.js"></script>
+<script type="application/javascript" src="../../resources/pages_style/carousel.js"></script>

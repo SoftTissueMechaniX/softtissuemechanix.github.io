@@ -1,0 +1,105 @@
+---
+title: "Group Members"
+page-layout: full
+listing:
+  - id: pis
+    contents: "members/pis/*.qmd"
+    type: default
+    image-align: left
+    image-height: 150px
+    fields: [image, title, subtitle, description]
+    sort: "order asc"
+    sort-ui: false
+    filter-ui: false
+  
+  - id: postdocs
+    contents: "members/postdoc/*.qmd"
+    type: default
+    image-align: left
+    image-height: 150px
+    fields: [image, title, subtitle, description]
+    sort: "title asc"
+    sort-ui: false
+    filter-ui: false
+
+  - id: phds
+    contents: "members/phds/*.qmd"
+    type: default
+    image-align: left
+    image-height: 150px
+    fields: [image, title, subtitle, description]
+    sort: "title asc"
+    sort-ui: false
+    filter-ui: false
+    
+  - id: interns
+    contents: "members/interns/*.qmd"
+    type: default
+    image-align: left
+    image-height: 150px
+    fields: [image, title, subtitle, description]
+    sort: "title asc"
+    sort-ui: false
+    filter-ui: false
+    
+  - id: alumni
+    contents: "members/alumnis/*.qmd"
+    type: default
+    image-align: left
+    image-height: 150px
+    fields: [image, title, subtitle, description]
+    sort: "title asc"
+    sort-ui: false
+    filter-ui: false
+---
+
+<style>
+  /* Target the exact image class Quarto uses */
+  .quarto-listing-default .thumbnail-image {
+    width: 150px !important; 
+    height: 150px !important; 
+    object-fit: cover !important;
+    
+    /* Anchor the crop to the top center so heads don't get cut off */
+    object-position: top center !important; 
+    
+    border-radius: 8px !important;
+  }
+  
+  /* Force the container to respect new width and add spacing */
+  .quarto-listing-default .thumbnail {
+    flex-basis: 150px !important;
+    max-width: 150px !important;
+    margin-right: 2rem !important;
+  }
+
+  /* Vertically center the image/text AND add space at the bottom */
+  .quarto-listing-default .quarto-post {
+    align-items: center !important;
+    padding-bottom: 1.5rem !important; /* Pushes the line away from the image */
+    margin-bottom: 1.5rem !important;  /* Adds space before the next person */
+  }
+</style>
+
+:::: {style='margin-top: 3em;'}
+::::
+
+## Principal Investigators (PIs)
+:::{#pis}
+:::
+
+## Postdoctoral Researchers
+:::{#postdocs}
+:::
+
+## PhD Students
+:::{#phds}
+:::
+
+## Interns
+:::{#interns}
+:::
+
+## Alumni
+:::{#alumnis}
+:::

@@ -1,0 +1,77 @@
+---
+title: "Fundings"
+format: html
+---
+
+## Ongoing Fundings
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6}
+::: {.border .rounded .p-4 .shadow-sm .h-100}
+#### 🚀 Launching Package MARTAA
+[**PI: Chloé Techens**]{.badge .bg-primary}
+[[🌐 Launching Package](https://www.polytechnique.edu/recherche/opportunites-et-appels-projet)]{.badge .border .border-primary .text-primary}
+
+Initial funding package supporting new faculty research activities.
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6}
+::: {.border .rounded .p-4 .shadow-sm .h-100}
+#### 🩸 ANR KAYO
+[**Leading Group**]{.badge .bg-primary}
+[[🌐 ANR KAYO](https://anr.fr/Projet-ANR-22-CE18-0030)]{.badge .border .border-primary .text-primary}
+
+Microrheology of venous blood clots for the diagnosis of hypercoagulability.
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6}
+::: {.border .rounded .p-4 .shadow-sm .h-100}
+#### 👁️ Premyom
+[**Partner**]{.badge .bg-secondary}
+[[🌐 premyom.com](https://premyom.com)]{.badge .border .border-secondary .text-secondary}
+
+Prise en charge et Ralentissement de l'Epidémie de MYopie par l'Optique Médicale.  
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6}
+::: {.border .rounded .p-4 .shadow-sm .h-100}
+#### 🧫 ANR ROSALY
+[**Partner**]{.badge .bg-secondary}
+[[🌐 ANR ROSALY](https://anr.fr/Projet-ANR-24-CE19-6123)]{.badge .border .border-secondary .text-secondary}
+
+Development of an *in vitro* vascular platform to study the patient-specific mechanobiological behaviour of human primary cells.
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6}
+::: {.border .rounded .p-4 .shadow-sm .h-100}
+#### 🦷 ANR MICHOCO
+[**Partner**]{.badge .bg-secondary}
+[[🌐 ANR MICHOCO](https://anr.fr/Projet-ANR-24-CE19-7567)]{.badge .border .border-secondary .text-secondary}
+
+Molar-incisor hypomineralization: treatment decision assisted by optical coherence tomography.
+:::
+:::
+
+:::
+
+--- 
+
+## Past Funds
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6}
+::: {.border .rounded .p-4 .shadow-sm .h-100}
+#### 🏛️ Previous Grant Example
+[**Leading Group**]{.badge .bg-secondary}
+
+Description of the past project goes here.
+:::
+:::
+
+:::

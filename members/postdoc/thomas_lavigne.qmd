@@ -1,0 +1,57 @@
+---
+title: "Thomas Lavigne"
+subtitle: "Postdoctoral Researcher"
+image: ../../resources/images/members/postdoc/thomas_lavigne.png
+description: "Project: SMCs in porous collagen hydrogels <br> Room: 104-20-213 <br>  **Dates:** Dec 2025 - Nov 2027"
+about:
+  id: hero-heading
+  template: solana
+  image-width: 20em
+  image-shape: rounded
+  links:
+    - text: "{{< iconify fa-brands:orcid >}} Orcid"
+      href: https://orcid.org/0000-0003-2690-3542
+    - text: "{{< iconify fa6-brands:google-scholar >}} Scholar"
+      href: https://scholar.google.com/citations?user=FYXQf_UAAAA
+    - text: "{{< iconify simple-icons:researchgate >}} Researchgate"
+      href: https://www.researchgate.net/profile/Thomas-Lavigne-2
+    - icon: github
+      text: Github
+      href: https://github.com/Th0masLavigne
+    - icon: globe
+      text: Personal Website
+      href: https://th0maslavigne.github.io
+---
+
+<style>
+  /* Add horizontal space between image and text on desktop screens */
+  @media (min-width: 768px) {
+    .quarto-about-solana .about-image {
+      margin-left: 3rem !important; /* Increase this number for even more space */
+    }
+  }
+</style>
+
+:::{#hero-heading}
+:::
+
+Thomas Lavigne is a researcher in **Biomechanics** and **Computational Modeling**, specializing in the **poromechanical and multiscale modeling of soft biological tissues**. His work focused on characterizing the complex time-dependent mechanical behavior of soft tissues like human skin and skeletal muscle, with direct applications in fields such as pressure ulcer prevention and tissue engineering. 
+
+---
+
+Former student of **École Normale Supérieure (ENS) Paris-Saclay** (mechanical engineering department), He recently earned a **Dual Doctoral Degree** (*Docteur en Sciences de l'Ingénieur*) through a **Co-tutelle PhD (2022-2025)** entitled: *Biomechanical modelling of human skin: a hierarchical porous media framework*. This <a href="https://theses.fr/2025ENAME034">PhD</a> work allied theroetical developments, numerical assessments and experimental campaigns, along with international collaboration and dissemination, with a special care on reproducibility. It successfully allowed to couple mechanics and biology (microvascular response) using porous media framework, providing insights on the time-dependent response of human skin as well as ischemic and hyperemic responses to an external load without introducing any neurological effects. This program was a joint effort between:
+
+- **Université du Luxembourg**
+- **École Nationale Supérieure des Arts et Métiers (ENSAM) Paris**
+
+This work was recognized with the **2025 Excellent Thesis Award** from the University of Luxembourg and proposed for the FNR Outstanding PhD Award, Prix Bézier (ENSAM), suggested for application to the FNR Outstanding PhD Award and more recently proposed for a potential participation at Prix Tarrach from *Les Amis du Luxembourg*
+
+---
+
+More recently, He am part of post-doctoral research projects:
+
+- **Post-Doctoral Position (09/2025–11/2025)**: A three-month appointment at **I2M Bordeaux**, dedicated to **multiscale modeling, HPC software install and porous fluids**.
+- **CNRS ANR Rosaly Post-Doctoral Researcher (12/2025–2027)**: A two-year project focused on the **mechanical characterization of hydrogels** intended for use in advanced cell culture systems (LMS, Polytechnique).
+
+<script type="application/javascript" src="../../resources/pages_style/custom_hal.js"></script>
+<script type="application/javascript" src="../../resources/pages_style/carousel.js"></script>

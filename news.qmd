@@ -1,0 +1,22 @@
+---
+title: "News and events"
+listing:
+  contents: news   # The folder Quarto will scan for .qmd files
+  sort: "date desc"         # Sorts by date, newest first
+  type: default             # 'default' gives a classic blog-style list; you can also use 'grid'
+  categories: true          # Creates a clickable category sidebar
+  sort-ui: true             # Adds a dropdown for users to change sorting
+  filter-ui: true           # Adds a search bar for the news feed
+  fields: [date, title, description, categories, image] # What to display on the card
+format: html
+---
+
+::: {.lead}
+Stay up to date with the latest developments from our group, including:
+:::
+
+* Recent thesis defenses.
+* Conference presentations.
+* Awards and grants.
+
+---

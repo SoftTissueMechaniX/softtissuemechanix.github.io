@@ -1,0 +1,60 @@
+---
+title: "Qian Wu"
+subtitle: "Former PhD Student (Defended 2025)"
+image: ../../resources/images/members/phds/qian_wu.jpeg
+description: "**Current Position:** Research engineer at EPF"
+about:
+  id: hero-heading
+  template: solana
+  image-width: 20em
+  image-shape: rounded
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/qian-wu-27b44957/
+    - icon: book
+      text: PhD Thesis
+      href: https://theses.fr/2025IPPAX049
+---
+
+<style>
+  /* Add horizontal space between image and text on desktop screens */
+  @media (min-width: 768px) {
+    .quarto-about-solana .about-image {
+      margin-left: 3rem !important; 
+    }
+  }
+</style>
+
+:::{#hero-heading}
+:::
+
+**Qian Wu** is a former PhD student at the Laboratoire de Mécanique des Solides (LMS), having successfully defended her thesis in 2025. She is a highly versatile researcher specializing in biomechanics and materials mechanics, with deep expertise in experimental characterization and AI-based image analysis. 
+
+She aims to actively contribute to scientific innovation, its industrial application, and the transfer and valorization of knowledge.
+
+---
+
+### Background
+
+Before completing her PhD, Qian gained valuable industrial experience in automotive engineering. Her work included the testing and validation of complex systems—notably the tuning of ESP calibration—and she participated in the development of electromechanical products, such as vacuum pumps for brake booster systems. This background provided her with a strong foundation in R&D project coordination, technical specification management, and multidisciplinary collaboration.
+
+---
+
+### PhD Overview & Expertise
+
+During her doctoral research, Qian investigated the structure–property relationships in complex materials. She developed custom algorithms and data processing pipelines using Python and MATLAB to extract quantitative insights from highly complex biological and material samples. 
+
+Her core technical expertise includes:
+
+* **Experimental Mechanics:** Developing experimental protocols and conducting multiscale characterization of soft and hard materials using Optical Coherence Tomography (OCT), Optical Microscopy, and Scanning Electron Microscopy (SEM).
+* **Advanced Image Analysis:** Computing deformation fields via Digital Image Correlation (DIC), extracting features via OCT segmentation, geometric reconstruction from point clouds, and preparing/annotating datasets for Machine Learning models (using ImageJ, Ilastik, and ParaView).
+* **Modeling & Engineering Tools:** Utilizing Python, MATLAB, R, COMSOL Multiphysics, and CATIA for automated data analysis and predictive modeling.
+
+**Key topics:** [Experimental Mechanics]{.badge .border .border-secondary .text-secondary .mb-1} 
+[Optical Coherence Tomography (OCT)]{.badge .border .border-secondary .text-secondary .mb-1} 
+[Digital Image Correlation (DIC)]{.badge .border .border-secondary .text-secondary .mb-1} 
+[Image Analysis & ML]{.badge .border .border-secondary .text-secondary .mb-1}
+
+<script type="application/javascript" src="../../resources/pages_style/custom_hal.js"></script>
+<script type="application/javascript" src="../../resources/pages_style/carousel.js"></script>

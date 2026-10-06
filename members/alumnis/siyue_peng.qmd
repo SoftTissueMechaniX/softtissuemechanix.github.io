@@ -1,0 +1,51 @@
+---
+title: "Siyue Peng"
+subtitle: "Former Intern (2025)"
+image: ../../resources/images/members/placeholder_person.png
+description: "**Current Position:** To be communicated"
+about:
+  id: hero-heading
+  template: solana
+  image-width: 20em
+  image-shape: rounded
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/siyue-peng/
+---
+
+<style>
+  /* Add horizontal space between image and text on desktop screens */
+  @media (min-width: 768px) {
+    .quarto-about-solana .about-image {
+      margin-left: 3rem !important; 
+    }
+  }
+</style>
+
+:::{#hero-heading}
+:::
+
+**Siyue Peng** is a motivated and detail-oriented Biomedical Engineer and a former intern at the Laboratoire de Mécanique des Solides (LMS). Their work focuses on the intersection of medical imaging, signal processing, and machine learning, specifically applied to ocular biomechanics.
+
+---
+
+### Internship Overview
+
+**Project:** *AI-based segmentation and reproducible workflows for ocular MRI*
+
+During the internship, Siyue played a critical role in bridging the gap between raw medical imaging data and computational biomechanical models. The project focused on extracting highly accurate geometric data of the eye and its surrounding structures from MRI scans.
+
+Core contributions included:
+
+* **AI-Based Image Segmentation:** Developing advanced machine learning segmentation pipelines for ocular structures on MRI, successfully isolating complex geometries like the optic nerve and extraocular muscles using the `nnInteractive` framework and ITK-SNAP.
+* **Reproducible Workflows:** Building robust, automated pipelines for MRI preprocessing (including bias-field correction and normalization) and image registration.
+* **Mesh Generation:** Streamlining post-processing tasks to deliver high-quality, patient-specific 3D meshes ready for advanced clinical and biomechanical finite element analysis.
+
+**Key topics:** [Medical Imaging]{.badge .border .border-secondary .text-secondary .mb-1} 
+[Machine Learning & AI]{.badge .border .border-secondary .text-secondary .mb-1} 
+[MRI Segmentation]{.badge .border .border-secondary .text-secondary .mb-1} 
+[ITK-SNAP]{.badge .border .border-secondary .text-secondary .mb-1}
+
+<script type="application/javascript" src="../../resources/pages_style/custom_hal.js"></script>
+<script type="application/javascript" src="../../resources/pages_style/carousel.js"></script>

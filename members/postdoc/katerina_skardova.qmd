@@ -1,0 +1,46 @@
+---
+title: "Kateřina Škardová"
+subtitle: "Postdoctoral Researcher"
+image: ../../resources/images/members/postdoc/katerina_skardova.jpeg
+description: "Project: Meshing and interfaces <br> Room: 104-20-215 <br>  **Dates:** Aug 2023 - Present"
+about:
+  id: hero-heading
+  template: solana
+  image-width: 20em
+  image-shape: rounded
+  links:
+    - text: "{{< iconify fa-brands:orcid >}} Orcid"
+      href: https://orcid.org/0000-0002-9870-3438
+    - text: "{{< iconify simple-icons:researchgate >}} Researchgate"
+      href: https://www.researchgate.net/scientific-contributions/Katerina-Skardova-2164141007
+    - icon: linkedin
+      text: LinkedIn
+      href: https://fr.linkedin.com/in/kateřina-škardová-a1a7b4142
+---
+
+<style>
+  /* Add horizontal space between image and text on desktop screens */
+  @media (min-width: 768px) {
+    .quarto-about-solana .about-image {
+      margin-left: 3rem !important; /* Increase this number for even more space */
+    }
+  }
+</style>
+
+:::{#hero-heading}
+:::
+
+**Kateřina Škardová** is a researcher in **Biomechanics** and **Computational Modeling**, specializing in the **development of patient-specific biophysical models and advanced numerical methods**. Her work focuses on characterizing the complex mechanics and hemodynamics of the cardiovascular system. She has direct expertise in solving partial differential equations, estimating material parameters from clinical imaging (such as MRI), and developing robust computational frameworks for biomedical applications.
+
+---
+
+She earned her **Ph.D.** from the **Czech Technical University in Prague** (Faculty of Nuclear Sciences and Physical Engineering). Her doctoral work allied theoretical developments, numerical assessments, and clinical application, successfully bridging mathematics and cardiology through collaborations with the **Institute of Clinical and Experimental Medicine in Prague**. Her research provided critical insights into left ventricular torsion and non-invasive parameter estimation, while emphasizing the coupling of medical data with biophysical models. This program involved strong international collaboration, notably with the Inria-UTSW Associated Team.
+
+---
+
+More recently, she is part of post-doctoral research projects at the **Institut Polytechnique de Paris**:
+
+- **Post-Doctoral Researcher (08/2023–Present)**: A joint appointment at **École Polytechnique (Laboratoire de Mécanique des Solides - LMS)** and **Inria (M3DISIM team)**. Her current research is dedicated to inverse problems in large strains (such as the Equilibrium Gap Method) and hybrid approaches combining reduced-order modeling (Proper Generalised Decomposition) with deep learning to provide real-time solutions for parameterized mechanics problems.
+
+<script type="application/javascript" src="../../resources/pages_style/custom_hal.js"></script>
+<script type="application/javascript" src="../../resources/pages_style/carousel.js"></script>

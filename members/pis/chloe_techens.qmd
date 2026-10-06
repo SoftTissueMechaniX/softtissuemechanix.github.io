@@ -1,0 +1,58 @@
+---
+title: "Chloé Techens"
+subtitle: "Assistant Professor"
+order: 2
+image: ../../resources/images/members/pis/chloe_techens.jpeg
+description: "Email: chloe.techens@polytechnique.edu <br> Room: 104-20-67"
+about:
+  id: hero-heading
+  template: solana
+  image-width: 20em
+  image-shape: rounded
+  links:
+    - text: "{{< iconify fa6-brands:google-scholar >}} Scholar"
+      href: https://scholar.google.com/citations?user=TJ4taQYAAAAJ&hl=fr
+    - icon: globe
+      text: IP Paris
+      href: https://researchportal.ip-paris.fr/fr/persons/chloé-techens/
+    - icon: linkedin
+      text: Linkedin
+      href: https://fr.linkedin.com/in/chloe-techens
+    - icon: envelope
+      text: Email
+      href: mailto:chloe.techens@polytechnique.edu
+---
+
+<style>
+  /* Add horizontal space between image and text on desktop screens */
+  @media (min-width: 768px) {
+    .quarto-about-solana .about-image {
+      margin-left: 3rem !important; /* Increase this number for even more space */
+    }
+  }
+</style>
+
+:::{#hero-heading}
+:::
+
+**Chloé Techens** is an Assistant Professor at École Polytechnique (Institut Polytechnique de Paris), having recently transitioned from a postdoctoral fellowship in cardiovascular mechanobiology at École des Mines de Saint-Étienne (Sainbiose laboratory). She defended her PhD in Health Technologies in 2022 at the University of Bologna (Italy) in collaboration with the National Center for Spinal Disorders in Budapest (Hungary). Her academic background also includes dual Master's degrees in Health Engineering from KTH Royal Institute of Technology (Sweden) and Mechanics of Materials from École Centrale Nantes (France).
+
+---
+
+### Research Interests
+
+Chloé Techens' research bridges the gap between fundamental mechanics and clinical medical applications. She specializes in **biomechanics** and **mechanobiology**, focusing on how mechanical stimuli influence cellular behavior and how biological tissues behave across multiple scales.
+
+Her main areas of research include:
+
+* **Cardiovascular Mechanobiology:** Investigating cell-matrix interactions and the mechanoregulation of vascular smooth muscle cells to better understand and prevent vascular diseases like aortic aneurysm dissections. 
+
+* **Spine Biomechanics and Orthopedics:** Assessing the biomechanical consequences of minimally invasive surgical treatments (such as percutaneous cement discoplasty) for advanced intervertebral disc degeneration.
+
+* **Experimental and Optical Methodologies:** Utilizing advanced imaging and measurement techniques, such as 3D Traction Force Microscopy and Digital Image Correlation (DIC), often at the microscopic scale using microstructured hydrogels.
+
+* **Tissue Characterization and Modeling:** Designing *in vitro* and *ex vivo* models to evaluate novel biomaterials, orthopedic devices, and complex loading scenarios on biological tissues.
+
+
+<script type="application/javascript" src="../../resources/pages_style/custom_hal.js"></script>
+<script type="application/javascript" src="../../resources/pages_style/carousel.js"></script>

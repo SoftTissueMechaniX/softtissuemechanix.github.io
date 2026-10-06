@@ -1,0 +1,59 @@
+---
+title: "Simon Kouba"
+subtitle: "PhD Candidate"
+image: ../../resources/images/members/phds/simon_kouba.jpeg
+description: "Thesis started: 2023 <br> Directors: J.-M. Allain & N. Westbrook <br> Room: 104-20-213"
+about:
+  id: hero-heading
+  template: solana
+  image-width: 20em
+  image-shape: rounded
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/simon-kouba-12a799153/
+    - icon: globe
+      text: Polytechnique Profile
+      href: https://www.polytechnique.edu/annuaire/kouba-simon
+    - icon: globe
+      text: LCF Profile
+      href: https://www.lcf.institutoptique.fr/groupes-de-recherche/biophotonique/membres
+    - icon: envelope
+      text: Email
+      href: mailto:simon.kouba@polytechnique.edu
+---
+
+<style>
+  /* Add horizontal space between image and text on desktop screens */
+  @media (min-width: 768px) {
+    .quarto-about-solana .about-image {
+      margin-left: 3rem !important; /* Increase this number for even more space */
+    }
+  }
+</style>
+
+:::{#hero-heading}
+:::
+
+**Simon Kouba** is a PhD candidate jointly affiliated with the Laboratoire de Mécanique des Solides (LMS) at École Polytechnique and the Biophotonics group at the Laboratoire Charles Fabry (LCF, Institut d'Optique Graduate School). His research sits at the intersection of biomechanics and optical physics, focusing on the intricate mechanical properties of blood clots.
+
+---
+
+### Thesis Overview
+
+**Title:** *Microstructure et microrhéologie de caillots sanguins* (Microstructure and microrheology of blood clots)
+
+Understanding the mechanics of thrombus formation and dissolution is crucial for tackling cardiovascular diseases, thrombosis, and embolism. Simon's thesis investigates the mechanical behavior of blood clots at the microscopic scale, linking the architecture of the fibrin network to its overall rheological response.
+
+By combining the biomechanics expertise of the LMS with the advanced optical tools of the LCF, his research focuses on:
+
+* **Microrheology:** Utilizing advanced biophotonics (such as optical tweezers or advanced microscopy) to probe the local, time-dependent viscoelastic properties of blood clots at the cellular and molecular scale.
+* **Microstructural Characterization:** Analyzing the 3D organization, density, and architecture of the fibrin network during clot formation.
+* **Multiscale Mechanics:** Bridging the gap between the microscopic interactions of the clot's components and their macroscopic mechanical response under physiological conditions.
+
+**Key topics:** [Microrheology]{.badge .border .border-secondary .text-secondary .mb-1} 
+[Fibrin Networks]{.badge .border .border-secondary .text-secondary .mb-1} 
+[Biophotonics]{.badge .border .border-secondary .text-secondary .mb-1}
+
+<script type="application/javascript" src="../../resources/pages_style/custom_hal.js"></script>
+<script type="application/javascript" src="../../resources/pages_style/carousel.js"></script>

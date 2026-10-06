@@ -1,0 +1,26 @@
+---
+title: "Your News Title Goes Here"
+description: "A brief 1-2 sentence summary of the event. This will appear on the main news.qmd listing page."
+author: "Author Name"
+date: "1980-01-01"          # MUST be in YYYY-MM-DD format for Quarto to sort properly
+categories: ["Award", "Grant", "Conference", "Defense"] # Keep only the relevant tags
+image: "path/to/image.jpg"  # Optional: Adds a thumbnail to the news feed
+draft: true                 # Prevents this template from showing up on the live site
+format: html
+about:
+  id: hero-heading
+  template: solana
+  image-width: 20em
+  image-shape: rounded
+---
+
+## Event Summary
+
+Write the full details of your news item here. Because this is a standard Quarto document, you can use all your usual formatting, buttons, and layouts.
+
+### Example content:
+We are thrilled to announce that **[Name]** successfully defended their thesis on [Date]. The jury commended their work on [Topic]. 
+
+::: {.callout-note appearance="simple"}
+**Link to manuscript:** [Download PDF](#)
+:::

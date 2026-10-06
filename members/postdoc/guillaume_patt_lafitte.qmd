@@ -1,0 +1,50 @@
+---
+title: "Guillaume Patt-Lafitte"
+subtitle: "Postdoctoral Researcher"
+image: ../../resources/images/members/postdoc/guillaume_patt_laffite.png
+description: "Project: _Coup de Pouce_ F2M <br> Room: 104-20-XXX <br>  **Dates:** 2026 - Present"
+about:
+  id: hero-heading
+  template: solana
+  image-width: 20em
+  image-shape: rounded
+  links:
+    - text: "{{< iconify fa-brands:orcid >}} ORCID"
+      href: https://orcid.org/0000-0003-4179-2449
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/guillaumepattlafitte/
+    - icon: globe
+      text: Sainbiose Profile
+      href: https://sainbiose-lab.fr/team/guillaume-patt-laffite/
+    - icon: envelope
+      text: Email
+      href: mailto:guillaume.patt-lafitte@polytechnique.edu
+---
+
+<style>
+  /* Add horizontal space between image and text on desktop screens */
+  @media (min-width: 768px) {
+    .quarto-about-solana .about-image {
+      margin-left: 3rem !important; 
+    }
+  }
+</style>
+
+:::{#hero-heading}
+:::
+
+**Guillaume Patt-Lafitte** is a multidisciplinary researcher in **Biomaterials** and **Biomedical Engineering**, specializing in the **design and characterization of 3D and 4D printed smart polymers**. His work focuses on developing shape-morphing polymer materials, structural composites, and responsive scaffolds intended for advanced biomedical applications, such as bone fixation and tissue engineering. 
+
+---
+
+He earned his **Ph.D. in Materials Science and Engineering** in 2024 from the **École des Mines de Saint-Étienne**. His doctoral research, which was part of the Horizon Europe *BoneFix* project, focused on the design of a 4D-printed, reinforced resin composite membrane intended as a novel bone fixation patch. His academic background also includes an M.Sc. in Biomedical Engineering from Paris University. Guillaume possesses extensive and versatile expertise bridging materials formulation (photo-curable resins), additive manufacturing (FDM), biomechanical testing, and *in vitro* biological assessments (such as macrophage cell culture for inflammatory response validation).
+
+---
+
+Prior to joining the laboratory, Guillaume completed a postdoctoral fellowship at the **Centre for Biomedical and Healthcare Engineering** (Sainbiose lab, Saint-Étienne), where he developed shape-morphing polymers and validated inflammatory responses using macrophage cultures.
+
+More recently, he joined the **Laboratoire de Mécanique des Solides (LMS)** at École Polytechnique as a Postdoctoral Researcher, bringing his versatile skill set in smart materials, advanced characterization (Micro-CT, SEM, Confocal microscopy), and 3D printing to tackle new challenges in soft tissue biomechanics and mechanobiology.
+
+<script type="application/javascript" src="../../resources/pages_style/custom_hal.js"></script>
+<script type="application/javascript" src="../../resources/pages_style/carousel.js"></script>

@@ -1,0 +1,61 @@
+---
+title: "Margaux Mercier"
+subtitle: "Master's Intern"
+image: ../../resources/images/members/interns/margaux_mercier.jpeg
+description: "**Dates:** Feb 2026 - June 2026 <br> Project: Experimental characterization of human corneal mechanical behavior"
+about:
+  id: hero-heading
+  template: solana
+  image-width: 20em
+  image-shape: rounded
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/margaux-mercier-713b88309/
+    - icon: envelope
+      text: Email
+      href: mailto:margaux.mercier@ensam.eu
+---
+
+<style>
+  /* Add horizontal space between image and text on desktop screens */
+  @media (min-width: 768px) {
+    .quarto-about-solana .about-image {
+      margin-left: 3rem !important; /* Increase this number for even more space */
+    }
+  }
+</style>
+
+:::{#hero-heading}
+:::
+
+**Margaux Mercier** is a Master's intern in Biomechanics at the Laboratoire de Mécanique des Solides (LMS). Her 6-month research project focuses on the experimental characterization and imaging of corneal tissues.
+
+---
+
+### Background
+
+Margaux is an engineering student at **Arts et Métiers (ENSAM)** and is currently completing her Master's degree within the **Biomechanics (BME) track at Université Paris Cité**. Her academic background provides her with a strong foundation in structural and mechanical engineering, which she is actively applying to the biomedical field and soft tissue mechanics.
+
+---
+
+### Internship Overview
+
+**Project:** *Experimental characterization of human corneal mechanical behavior*
+
+During her internship, Margaux is investigating the mechanical response of the human cornea to better understand its structural integrity and deformation properties. 
+
+Her core responsibilities and methodologies include:
+
+* **Experimental Testing:** Performing bulge testing on human corneal tissue to characterize its mechanical behavior under pressure.
+* **Bioimaging & DVC:** Utilizing Optical Coherence Tomography (OCT) coupled with 3D Digital Volume Correlation (DVC) to precisely track, reconstruct, and analyze 3D tissue deformation.
+* **Custom Engineering:** Designing custom experimental fixtures using CAD software to support physical measurements, and developing custom scripts for advanced data analysis.
+
+Through this project, she is gaining extensive hands-on experience in soft tissue mechanics, advanced bioimaging techniques, and rigorous experimental research methodologies.
+
+**Key topics:** [Corneal Mechanics]{.badge .border .border-secondary .text-secondary .mb-1} 
+[Optical Coherence Tomography (OCT)]{.badge .border .border-secondary .text-secondary .mb-1} 
+[Digital Volume Correlation (DVC)]{.badge .border .border-secondary .text-secondary .mb-1}
+
+<script type="application/javascript" src="../../resources/pages_style/custom_hal.js"></script>
+<script type="application/javascript" src="../../resources/pages_style/carousel.js"></script>

@@ -1,0 +1,10 @@
+/.quarto/
+**/*.quarto_ipynb
+
+.quarto/*
+public/*
+_site/*
+docs/*
+old/*
+*.DS_Store
+*docs/

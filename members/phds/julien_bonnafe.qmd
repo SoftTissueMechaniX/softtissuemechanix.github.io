@@ -1,0 +1,44 @@
+---
+title: "Julien Bonnafé"
+subtitle: "PhD Candidate"
+image: ../../resources/images/members/phds/julien_bonnafe.jpeg
+description: "Thesis started: 2023 <br> CIFRE PhD: EssilorLuxottica & Inria <br> Room: 104-20-214"
+about:
+  id: hero-heading
+  template: solana
+  image-width: 20em
+  image-shape: rounded
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://fr.linkedin.com/in/julien-bonnaf%C3%A9-a06a68355
+    - icon: envelope
+      text: Email
+      href: mailto:julien.bonnafe@polytechnique.edu
+---
+
+:::{#hero-heading}
+:::
+
+**Julien Bonnafé** is a PhD candidate in Biomechanics at the Laboratoire de Mécanique des Solides (LMS), conducting a CIFRE thesis in partnership with **EssilorLuxottica International** and **Inria**. His research focuses on the biomechanical modeling of extraocular muscles to better understand the tissue deformations associated with eye movement and myopia development.
+
+---
+
+### Thesis Overview
+
+**Title:** *Biomechanical modeling of extra ocular muscles for the movement of an eye model applied to optics and myopia evolution.*
+
+Julien's project investigates the ocular tissue deformations related to eye movements and the development of myopia during childhood. By treating the eye and its surrounding muscles as a complex mechanical system, his work aims to bridge the gap between muscular contraction and long-term ocular growth.
+
+His main research objectives include:
+
+* **Extraocular Muscle Simulation:** Simulating the contraction of extraocular muscles to accurately assess the resulting strains and stresses near the visual center of the eye.
+* **Patient-Specific Modeling:** Developing highly accurate, patient-specific Finite Element (FE) models derived directly from Magnetic Resonance (MR) imaging.
+* **Myopia Evolution:** Characterizing the influence of these repeated movements and mechanical stresses using advanced growth and remodeling models to predict myopia progression.
+
+**Key topics:** [Finite Element Method]{.badge .border .border-secondary .text-secondary .mb-1} 
+[Eye Movements]{.badge .border .border-secondary .text-secondary .mb-1} 
+[Growth and Remodeling Models]{.badge .border .border-secondary .text-secondary .mb-1}
+
+<script type="application/javascript" src="../../resources/pages_style/custom_hal.js"></script>
+<script type="application/javascript" src="../../resources/pages_style/carousel.js"></script>

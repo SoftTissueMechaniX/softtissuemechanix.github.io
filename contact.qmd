@@ -1,0 +1,53 @@
+---
+title: "Contact Us"
+format: html
+---
+
+We would love to hear from you. Reach out using the form below or drop by our office!
+
+:::: {.columns}
+
+::: {.column width="45%"}
+### Send us a Message
+
+```{=html}
+<form action="https://forminit.com/f/wyjfatigudy" method="POST" enctype="multipart/form-data">
+  <div class="mb-3">
+    <label for="name" class="form-label">Name</label>
+    <input type="text" class="form-control" id="name" name="fi-sender-fullName" required>
+  </div>
+  <div class="mb-3">
+    <label for="email" class="form-label">Email</label>
+    <input type="email" class="form-control" id="email" name="fi-sender-email" required>
+  </div>
+  
+  <div class="mb-3">
+    <label for="attachment" class="form-label">Upload CV (.pdf,.doc,.docx and Max 10MB)</label>
+    <input type="file" class="form-control" id="attachment" name="fi-file-attachment" accept=".pdf,.doc,.docx">
+  </div>
+  
+  <div class="mb-3">
+    <label for="message" class="form-label">Message</label>
+    <textarea class="form-control" id="message" name="fi-text-message" rows="4" required></textarea>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+```
+
+:::
+
+::: {.column width="10%"}
+:::
+
+::: {.column width="45%"}
+### Our Location
+
+**Address:** Laboratoire de Mécanique des Solides
+
+```{=html}
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2632.6964778746674!2d2.21343467713137!3d48.71128207131251!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e678f55fbdcdcb%3A0x9a2fd03b1e16655b!2sLaboratoire%20de%20M%C3%A9canique%20des%20Solides!5e0!3m2!1sfr!2sfr!4v1777031610180!5m2!1sfr!2sfr" width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+```
+
+:::
+
+::::

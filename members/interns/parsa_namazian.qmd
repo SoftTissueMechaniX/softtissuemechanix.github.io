@@ -1,0 +1,58 @@
+---
+title: "Parsa Namazian"
+subtitle: "Master's Intern"
+image: ../../resources/images/members/interns/parsa_namazian.jpeg
+description: "**Dates:** May 2026 (Lab Rotation) <br> Project: Numerical assessment of cell orientation impact on collagen hydrogels."
+about:
+  id: hero-heading
+  template: solana
+  image-width: 20em
+  image-shape: rounded
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/parsa-namazian/
+---
+
+<style>
+  /* Add horizontal space between image and text on desktop screens */
+  @media (min-width: 768px) {
+    .quarto-about-solana .about-image {
+      margin-left: 3rem !important; 
+    }
+  }
+</style>
+
+:::{#hero-heading}
+:::
+
+**Parsa Namazian** is a Master's intern conducting a lab rotation at the Laboratoire de Mécanique des Solides (LMS). His research focuses on computational biomechanics, specifically modeling the complex mechanical behaviors of cells within tissue-engineered scaffolds.
+
+---
+
+### Background
+
+Parsa is currently pursuing his Master's degree, building a strong analytical foundation in computational mechanics and biomechanical engineering. His academic training equips him with the advanced numerical and programming skills required to simulate the behavior of complex biological systems.
+
+---
+
+### Internship Overview
+
+**Project:** *Numerical assessment of cell orientation impact on collagen hydrogels*
+
+During his lab rotation in May 2026, Parsa is investigating the mechanobiological principles governing how cells orient and reorient themselves within 3D collagen environments. 
+
+His core responsibilities and methodologies include:
+
+* **Computational Modeling:** Studying the mechanical effects of cell orientation and the dynamic processes of cellular reorientation within soft hydrogel matrices.
+* **Numerical Tool Development:** Utilizing and expanding the laboratory's custom computational toolbox, which is built upon the `dolfin_mech` Python library.
+* **Mechanobiology Simulation:** Running finite element simulations to predict how local cellular alignment impacts the global mechanical properties and structural integrity of tissue scaffolds.
+
+Through this rotation, he is gaining hands-on experience in advanced numerical methods and the computational modeling of active, living materials.
+
+**Key topics:** [Computational Biomechanics]{.badge .border .border-secondary .text-secondary .mb-1} 
+[Cell Orientation]{.badge .border .border-secondary .text-secondary .mb-1} 
+[Python / dolfin_mech]{.badge .border .border-secondary .text-secondary}
+
+<script type="application/javascript" src="../../resources/pages_style/custom_hal.js"></script>
+<script type="application/javascript" src="../../resources/pages_style/carousel.js"></script>

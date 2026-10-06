@@ -1,0 +1,64 @@
+---
+title: "Jean-Marc ALLAIN"
+subtitle: "Professor"
+order: 1
+image: ../../resources/images/members/pis/jean-marc_allain.jpg
+description: "Email: jean-marc.allain@polytechnique.edu <br> Room: 104-20-72"
+about:
+  id: hero-heading
+  template: solana
+  image-width: 20em
+  image-shape: rounded
+  links:
+    - text: "{{< iconify fa-brands:orcid >}} ORCID"
+      href: https://orcid.org/0000-0002-5273-7739
+    - icon: globe
+      text: WebofScience
+      href: https://www.webofscience.com/wos/author/record/A-2484-2016
+    - icon: github
+      text: Gitlab
+      href: https://src.koda.cnrs.fr/jmallain
+    - icon: globe
+      text: Ecole Polytechnique Profile
+      href: https://www.polytechnique.edu/annuaire/allain-jean-marc
+    - icon: envelope
+      text: Email
+      href: mailto:jean-marc.allain@polytechnique.edu
+---
+
+<style>
+  /* Add horizontal space between image and text on desktop screens */
+  @media (min-width: 768px) {
+    .quarto-about-solana .about-image {
+      margin-left: 3rem !important; /* Increase this number for even more space */
+    }
+  }
+</style>
+
+:::{#hero-heading}
+:::
+
+
+**Jean-Marc Allain** is a faculty member (Associate Professor / *Professeur chargé de cours*) in the Department of Mechanics at École Polytechnique (Institut Polytechnique de Paris). He conducts his research at the **Laboratoire de Mécanique des Solides (LMS)** and was part of the **M3DISIM** research team (a joint research group involving École Polytechnique, CNRS, and Inria). He defended his PhD in physics in 2005 at Université Paris 7, focusing on the "*Instabilities of inhomogeneous lipid membranes: biological implications*."
+
+---
+
+### Research Interests
+
+Jean-Marc Allain's research sits at the intersection of mechanics, biology, and physics. His work focuses primarily on **biomechanics** and **multiscale experimental mechanobiology**, with the overarching goal of linking the microstructure of biological tissues to their macroscopic mechanical properties.
+
+His main areas of research include:
+
+* **Skin Mechanics and Aging:** Studying the mechanical behavior of the dermis and the organization of its collagen fibers (e.g., using multiphoton microscopy) to understand how aging impacts the skin.
+
+* **Vascular Mechanics and Clot Microstructure:** Analyzing the organization of the fibrin network and the rheology of blood clots to better evaluate and prevent the risks of thrombosis and pulmonary embolism.
+
+* **Biomechanics of the Eye:** Investigating the mechanics of the cornea, particularly concerning the effects of surgery or the development of biomimetic artificial corneas.
+
+* **Plant Mechanobiology:** Studying the mechanical and electrical responses of plants to external stresses (such as wind) and the involvement of mechanosensitive ion channels in cell membranes.
+
+* **Bacterial Biomechanics:** Understanding the mechanical properties and cohesion of bacterial biofilms (for example, *Bacillus subtilis*).
+
+
+<script type="application/javascript" src="../../resources/pages_style/custom_hal.js"></script>
+<script type="application/javascript" src="../../resources/pages_style/carousel.js"></script>

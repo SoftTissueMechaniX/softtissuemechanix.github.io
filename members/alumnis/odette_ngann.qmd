@@ -1,0 +1,47 @@
+---
+title: "Odette Ngann"
+subtitle: "Former Intern (April 2025)"
+image: ../../resources/images/members/placeholder_person.png
+description: "**Current Position:** Master 1 IPP (Biomedical Engineering)"
+about:
+  id: hero-heading
+  template: solana
+  image-width: 20em
+  image-shape: rounded
+---
+
+<style>
+  /* Add horizontal space between image and text on desktop screens */
+  @media (min-width: 768px) {
+    .quarto-about-solana .about-image {
+      margin-left: 3rem !important; 
+    }
+  }
+</style>
+
+:::{#hero-heading}
+:::
+
+**Odette Ngann** is a former intern at the Laboratoire de Mécanique des Solides (LMS). During her one-month internship, she focused on experimental mechanobiology, specifically working on the formulation and advanced imaging of composite biomaterials.
+
+---
+
+### Internship Overview
+
+**Project:** *Experimental formulation and imaging of collagen hydrogels with embedded magnetic nanoparticles*
+
+Odette's work centered on the experimental synthesis and microstructural observation of smart, responsive biomaterials. By embedding magnetic nanoparticles into a biological matrix, her project aimed to explore new ways to manipulate and observe soft tissue models.
+
+Her core contributions included:
+
+* **Hydrogel Formulation:** Successfully synthesizing and preparing 3D collagen hydrogels embedded with magnetic nanoparticles.
+* **Optical Coherence Tomography (OCT):** Utilizing advanced OCT bioimaging to visualize and assess the microstructural organization of the hydrogels.
+* **Experimental Characterization:** Evaluating the distribution and integration of the nanoparticles within the collagen matrix to ensure a viable composite material for future biomechanical testing.
+
+**Key topics:** [Collagen Hydrogels]{.badge .border .border-secondary .text-secondary .mb-1} 
+[Magnetic Nanoparticles]{.badge .border .border-secondary .text-secondary .mb-1} 
+[Optical Coherence Tomography (OCT)]{.badge .border .border-secondary .text-secondary .mb-1} 
+[Experimental Biomechanics]{.badge .border .border-secondary .text-secondary .mb-1}
+
+<script type="application/javascript" src="../../resources/pages_style/custom_hal.js"></script>
+<script type="application/javascript" src="../../resources/pages_style/carousel.js"></script>

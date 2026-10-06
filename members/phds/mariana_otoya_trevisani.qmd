@@ -1,0 +1,60 @@
+---
+title: "Mariana Otoya Trevisani"
+subtitle: "PhD Candidate"
+image: ../../resources/images/members/phds/mariana_otoya_trevisani.jpeg
+description: "Thesis started: 2025 <br> Directors: J-M. Allain & C. Techens <br> Room: 104-20-215"
+about:
+  id: hero-heading
+  template: solana
+  image-width: 20em
+  image-shape: rounded
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://fr.linkedin.com/in/mariana-otoya-t
+    - icon: envelope
+      text: Email
+      href: mailto:mariana.otoya@polytechnique.edu
+---
+
+<style>
+  /* Add horizontal space between image and text on desktop screens */
+  @media (min-width: 768px) {
+    .quarto-about-solana .about-image {
+      margin-left: 3rem !important; /* Increase this number for even more space */
+    }
+  }
+</style>
+
+:::{#hero-heading}
+:::
+
+**Mariana Otoya Trevisani** is a PhD candidate in Biomechanics at the Laboratoire de Mécanique des Solides (LMS). Her research focuses on the multiscale characterization of the extracellular matrix to better understand the biophysical mechanisms driving structural failures in the thoracic aorta.
+
+---
+
+### Background
+
+Mariana holds an engineering degree from **IMT Mines Albi** and a Master’s in Material and Structural Mechanics from the **Université de Toulouse**. She complemented her training with a second Master’s degree in Biomechanics and Biomedical Engineering from the **Institut Polytechnique de Paris**. 
+
+Throughout her academic journey, she has developed broad technical expertise, notably in designing mechanical test benches for medical technologies, studying collagen hydrogel microstructures, and developing innovative characterization methods. Her outstanding academic and project work was recently recognized when she was named a laureate of the **[Prix Fondation Mines-Télécom](https://www.imt-mines-albi.fr/fr/actualite/ingenieurs-imt-mines-albi-laureats-prix-fondation-mines-telecom)**.
+
+---
+
+### Thesis Overview
+
+**Title:** *Multi-scale mechanical characterization of extra-cellular matrix remodelling by aortic smooth muscle cells*
+
+Thoracic Aortic Aneurysm (TAA) involves a pathological "feedback loop" where Smooth Muscle Cells (SMCs) dysregulate the Extracellular Matrix (ECM). Mariana's PhD project uses 3D collagen hydrogels to quantify how these cellular shifts drive structural tissue failure. 
+
+Her experimental pipeline includes:
+
+* **Baseline Characterization:** Assessing acellular hydrogels using macro-rheology, micro-indentation, and uniaxial traction to establish initial viscoelastic properties.
+* **Simulating the Aneurysmal Environment:** Seeding thoracic aortic SMCs into the matrices and subjecting them to mechanical (traction and compression) and chemical perturbations.
+* **Anisotropic Scaffold Engineering:** Mimicking the aortic media with pre-aligned collagen fibers to isolate how structural "guidance" dictates remodeling efficiency and directionality.
+* **Post-Culture Analysis:** Combining mechanical testing with high-resolution imaging (Confocal and Second Harmonic Generation) to correlate microstructural fiber density with emergent bulk stiffness.
+
+By bridging local fiber architecture and global tissue mechanics, this research aims to provide a predictive framework for the biophysical transitions leading to catastrophic aortic wall failure.
+
+<script type="application/javascript" src="../../resources/pages_style/custom_hal.js"></script>
+<script type="application/javascript" src="../../resources/pages_style/carousel.js"></script>
