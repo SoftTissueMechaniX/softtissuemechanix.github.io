@@ -1,0 +1,43 @@
+---
+title: "Euromech 670"
+description: "J-M. Allain and T. Lavigne presented their work in the field of cornea mechanics and porous media mechanics at Euromech 670 in Rennes."
+author: "T. Lavigne"
+date: "2026-04-10"          
+categories: ["Conference"] 
+image: "../resources/images/news/euromech_670.png"          
+draft: false  
+format: html
+about:
+  id: hero-heading
+  template: solana
+  image-width: 20em
+  image-shape: rounded
+---
+
+<style>
+  /* Add horizontal space between image and text on desktop screens */
+  @media (min-width: 768px) {
+    .quarto-about-solana .about-image {
+      margin-left: 3rem !important; /* Increase this number for even more space */
+    }
+  }
+</style>
+
+:::{#hero-heading}
+:::
+
+
+## Event Summary
+
+We are excited to share that **Jean-Marc Allain** and **Thomas Lavigne** recently represented our research group at the **Euromech 670** Colloquium held in Rennes. 
+
+During the conference, they presented our latest computational and experimental findings across two of our primary research themes:
+
+* **Cornea Mechanics:** J.-M. Allain presented recent insights into the intricate multiscale mechanical behavior of the human cornea, detailing how lamellar microstructures influence the tissue's response to surgical interventions and pathology.
+* **Porous Media Mechanics:** T. Lavigne highlighted advanced frameworks for poromechanical modeling, demonstrating the impact of mechanical loading and fluid dynamics on soft tissue microstructures.
+
+The colloquium provided an excellent platform to share our cutting-edge methodologies with the broader mechanics community and to foster new collaborations in the field of soft matter and tissue engineering.
+
+::: {.callout-note appearance="simple"}
+**Conference Program & Book of Abstracts:** [Download PDF](https://670.euromech.org/documents/266/Euromech_670_documents_mZEIiIG.pdf)
+:::

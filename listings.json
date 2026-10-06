@@ -1,0 +1,33 @@
+[
+  {
+    "listing": "/members.html",
+    "items": [
+      "/members/pis/jean-marc_allain.html",
+      "/members/pis/chloe_techens.html",
+      "/members/postdoc/guillaume_patt_lafitte.html",
+      "/members/postdoc/katerina_skardova.html",
+      "/members/postdoc/thomas_lavigne.html",
+      "/members/phds/julien_bonnafe.html",
+      "/members/phds/mariana_otoya_trevisani.html",
+      "/members/phds/simon_kouba.html",
+      "/members/interns/margaux_mercier.html",
+      "/members/interns/parsa_namazian.html",
+      "/members/alumnis/gaspard_deremble.html",
+      "/members/alumnis/giulia_merlini.html",
+      "/members/alumnis/odette_ngann.html",
+      "/members/alumnis/qian_wu.html",
+      "/members/alumnis/siyue_peng.html"
+    ]
+  },
+  {
+    "listing": "/publications.html",
+    "items": []
+  },
+  {
+    "listing": "/news.html",
+    "items": [
+      "/news/2026-04-10-euromech.html",
+      "/news/2025-07-31-aap_cp.html"
+    ]
+  }
+]

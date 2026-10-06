@@ -1,0 +1,48 @@
+---
+title: "Coup de Pouce"
+description: "C. Techens recipient of the Coup de Pouce 2025 call for project from the F2M."
+author: "T. Lavigne"
+date: "2025-07-31"          
+categories: ["Grant"] 
+image: "../resources/images/news/F2M.png"          
+draft: false  
+format: html
+about:
+  id: hero-heading
+  template: solana
+  image-width: 20em
+  image-shape: rounded
+---
+
+<style>
+  /* Add horizontal space between image and text on desktop screens */
+  @media (min-width: 768px) {
+    .quarto-about-solana .about-image {
+      margin-left: 3rem !important; /* Increase this number for even more space */
+    }
+  }
+</style>
+
+:::{#hero-heading}
+:::
+
+
+## Event Summary
+
+We are thrilled to announce that **Chloé Techens** (Laboratoire de Mécanique des Solides), in collaboration with **Jean Boisson** (Laboratoire de Mécanique et ses Interfaces, ENSTA), has been awarded the **Coup de Pouce 2025** grant by the Fédération Francilienne de Mécanique (F2M).
+
+The funded project, titled *"Matrix remodeling of smooth muscle cells under mechanical stimulation,"* aims to explore the *in vitro* mechanobiology of Smooth Muscle Cells (SMCs) to better understand the progression of aortic aneurysms.
+
+### Project Highlights
+
+Aortic aneurysms are characterized by a dangerous loss of SMC contractility and altered extracellular matrix remodeling, which weakens the aortic wall. To investigate this mechanobiological coupling, the team is developing a highly innovative experimental approach:
+
+* **Magneto-Active Hydrogels:** The researchers will culture primary SMCs in 3D collagen hydrogels embedded with Fe3O4 magnetic nanoparticles (10-20 nm).
+* **Dynamic Mechanical Stimulation:** Using a custom device based on the periodic translation of permanent magnets, they will apply dynamic magnetic field gradients to the hydrogel. This setup will simulate the cyclic mechanical loading natively exerted by blood pressure.
+* **Multiscale Quantification:** By coupling multiphoton and confocal microscopy with 3D Digital Volume Correlation (DVC), the team will track local matrix deformations, the spatial reorganization of collagen fibers, and the kinetics of cell proliferation over time.
+
+This 50 k€ grant will primarily fund a postdoctoral researcher to build the magnetic excitation platform and conduct the *in vitro* remodeling assays. Ultimately, the data collected will feed into advanced analytical models of tissue growth and remodeling, opening new perspectives for predicting and modeling aneurysm development.
+
+::: {.callout-note appearance="simple"}
+**F2M Coup de Pouce webpage:** [Click here](https://f2m.cnrs.fr/evenements/le-coup-de-pouce-de-la-f2m/)
+:::
