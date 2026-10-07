@@ -1,6 +1,6 @@
 ---
 title: "Come see us at ICMMB 2026 in Singapore!"
-description: "M. Otoya and C. Techens are in Singapore for the 24th International Conference on Mechanics in Medicine and Biology (ICMMB 2026), presenting our work on the mechanical characterization of anisotropic collagen hydrogels."
+description: "M. Otoya and C. Techens are in Singapore for the 24th International Conference on Mechanics in Medicine and Biology (ICMMB 2026), presenting our work on collagen hydrogels and the mechanical stimulation of smooth muscle cells."
 author: "T. Lavigne"
 date: "2026-10-06"
 end-date: "2026-10-08"
@@ -33,9 +33,9 @@ about:
 
 From **6 to 8 October 2026**, **Mariana Otoya** and **Chloé Techens** are representing the group at the **24th International Conference on Mechanics in Medicine and Biology (ICMMB 2026)**, held at the Academia, SGH Campus, in **Singapore**.
 
-If you are attending, come and meet them at the poster session!
+They are presenting two complementary contributions on how the mechanical environment of vascular smooth muscle cells can be characterized and controlled. If you are attending, come and meet them!
 
-### Poster — Submission ID 32
+### Poster by Mariana Otoya (Submission ID 32)
 
 > **Development of custom indentation and uniaxial traction frameworks for the mechanical characterization of low-density anisotropic collagen hydrogels**
 >
@@ -48,3 +48,11 @@ Vascular smooth muscle cells constantly probe and remodel the collagen-rich scaf
 * **Rheology** (time, strain and frequency sweeps).
 
 ![Mariana Otoya in front of her poster at ICMMB 2026.](../resources/images/news/singapour2.jpg){fig-align="center" width="60%"}
+
+### Presentation by Chloé Techens
+
+> **Magnetically actuated hydrogels for mechanically stimulating smooth muscle cells**
+>
+> *Chloé Techens* — Laboratoire de Mécanique des Solides, École polytechnique
+
+Chloé presents hydrogels that can be deformed remotely with a magnetic field, which lets us apply controlled mechanical stimuli to smooth muscle cells cultured with them.
