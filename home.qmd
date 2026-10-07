@@ -10,7 +10,7 @@ format:
     page-layout: custom
     include-in-header:
       - text: |
-          <meta name="google-site-verification" content="TOBEDONE" />
+          <meta name="google-site-verification" content="xjeIfk0ErhzTBsbza3iboEFWDHCykpy5Sx_BgRRjBzg" />
 ---
 <!-- the above site verif should be updated -->
 
