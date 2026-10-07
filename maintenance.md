@@ -14,6 +14,9 @@
 - In about links: `href: "#email:first.last:polytechnique.edu"`
 - Never write `name@domain` or `mailto:` in source.
 
+## Members — empty sections
+- Each listing in members.qmd is followed by `::: {.stm-empty-listing}` with a message; CSS (`:has`) shows it only when that section's listing has no entries. Empty folders keep a `.gitkeep`.
+
 ## Research (research.qmd)
 - Each project: `::::::: {#id .project-section}` (add `.flip` to swap image side).
 - Related publications box: `.project-pubs data-tags="Cornea"` → filled from bibliography.yml `tags`.

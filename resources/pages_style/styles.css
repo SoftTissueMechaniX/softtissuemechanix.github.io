@@ -460,3 +460,19 @@ body.quarto-dark .news-date { background: #021047; }
   .news-date { flex-basis: 70px; }
   .news-date .d { font-size: 1.6rem; }
 }
+
+/* ---------- Members: placeholder when a listing folder is empty ----------
+   Each listing in members.qmd is followed by a hidden `.stm-empty-listing`
+   block; it is shown only when that section's listing has no entries. */
+.stm-empty-listing { display: none; }
+section:has(> .quarto-listing):not(:has(.quarto-post)) .stm-empty-listing {
+  display: block;
+  padding: 1rem 1.25rem;
+  margin: .5rem 0 2rem;
+  background: var(--stm-soft);
+  border: 1px dashed var(--stm-border);
+  border-radius: var(--stm-radius);
+  color: var(--stm-strong);
+  font-style: italic;
+  opacity: .85;
+}

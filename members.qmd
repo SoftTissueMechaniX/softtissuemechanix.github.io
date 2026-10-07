@@ -88,18 +88,38 @@ listing:
 :::{#pis}
 :::
 
+::: {.stm-empty-listing}
+No principal investigators listed at the moment.
+:::
+
 ## Postdoctoral Researchers
 :::{#postdocs}
+:::
+
+::: {.stm-empty-listing}
+There are currently no postdoctoral researchers in the group.
 :::
 
 ## PhD Students
 :::{#phds}
 :::
 
+::: {.stm-empty-listing}
+There are currently no PhD students in the group.
+:::
+
 ## Interns
 :::{#interns}
 :::
 
+::: {.stm-empty-listing}
+There are currently no interns in the group.
+:::
+
 ## Alumni
 :::{#alumni}
+:::
+
+::: {.stm-empty-listing}
+No alumni listed yet.
 :::
