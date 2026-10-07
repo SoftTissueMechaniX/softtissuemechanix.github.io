@@ -1,0 +1,50 @@
+---
+title: "Come see us at ICMMB 2026 in Singapore!"
+description: "M. Otoya and C. Techens are in Singapore for the 24th International Conference on Mechanics in Medicine and Biology (ICMMB 2026), presenting our work on the mechanical characterization of anisotropic collagen hydrogels."
+author: "T. Lavigne"
+date: "2026-10-06"
+end-date: "2026-10-08"
+location: "Singapore"
+categories: ["Conference"]
+image: "../resources/images/news/singapour1.jpg"
+draft: false
+format: html
+about:
+  id: hero-heading
+  template: solana
+  image-width: 20em
+  image-shape: rounded
+---
+
+<style>
+  /* Add horizontal space between image and text on desktop screens */
+  @media (min-width: 768px) {
+    .quarto-about-solana .about-image {
+      margin-left: 3rem !important;
+    }
+  }
+</style>
+
+:::{#hero-heading}
+:::
+
+
+## Event Summary
+
+From **6 to 8 October 2026**, **Mariana Otoya** and **Chloé Techens** are representing the group at the **24th International Conference on Mechanics in Medicine and Biology (ICMMB 2026)**, held at the Academia, SGH Campus, in **Singapore**.
+
+If you are attending, come and meet them at the poster session!
+
+### Poster — Submission ID 32
+
+> **Development of custom indentation and uniaxial traction frameworks for the mechanical characterization of low-density anisotropic collagen hydrogels**
+>
+> *Mariana Otoya, Chloé Techens, Jean-Marc Allain* — Laboratoire de Mécanique des Solides, École polytechnique
+
+Vascular smooth muscle cells constantly probe and remodel the collagen-rich scaffold that surrounds them, and the anisotropy of this extracellular matrix plays a key role in their behaviour. To characterize this remodeling mechanically, Mariana presents the frameworks she developed to fabricate reproducible **isotropic and anisotropic collagen gels** and to test them at different spatial scales using:
+
+* **Indentation**, with contact geometry measured by Optical Coherence Tomography (OCT);
+* **Uniaxial traction**, on reinforced "dog-bone" shaped samples;
+* **Rheology** (time, strain and frequency sweeps).
+
+![Mariana Otoya in front of her poster at ICMMB 2026.](../resources/images/news/singapour2.jpg){fig-align="center" width="60%"}
