@@ -53,6 +53,6 @@ Vascular smooth muscle cells constantly probe and remodel the collagen-rich scaf
 
 > **Magnetically actuated hydrogels for mechanically stimulating smooth muscle cells**
 >
-> *Chloé Techens* — Laboratoire de Mécanique des Solides, École polytechnique
+> *Guillaume Lafitte, Jules Introvigne, Jean Boisson, Chloé Techens* — Laboratoire de Mécanique des Solides, École polytechnique & LMI, ENSTA
 
-Chloé presents hydrogels that can be deformed remotely with a magnetic field, which lets us apply controlled mechanical stimuli to smooth muscle cells cultured with them.
+On her side, Chloé presents the progress made by **Guillaume Lafitte** and **Jules Introvigne** in the development of **magnetic hydrogels**: soft substrates that can be deformed remotely with a magnetic field, which lets us apply controlled mechanical stimuli to smooth muscle cells cultured with them. This project is carried out in collaboration with **Jean Boisson** (LMI, ENSTA).
