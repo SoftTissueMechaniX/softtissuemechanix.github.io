@@ -1,17 +1,5 @@
 [
   {
-    "listing": "/news.html",
-    "items": [
-      "/news/2026-10-07-singapour.html",
-      "/news/2026-04-10-euromech.html",
-      "/news/2025-07-31-aap_cp.html"
-    ]
-  },
-  {
-    "listing": "/publications.html",
-    "items": []
-  },
-  {
     "listing": "/members.html",
     "items": [
       "/members/pis/jean-marc_allain.html",
@@ -25,6 +13,19 @@
       "/members/phds/mariana_otoya_trevisani.html",
       "/members/alumnis/giulia_merlini.html",
       "/members/alumnis/qian_wu.html"
+    ]
+  },
+  {
+    "listing": "/publications.html",
+    "items": []
+  },
+  {
+    "listing": "/news.html",
+    "items": [
+      "/news/2026-10-07-singapour.html",
+      "/news/2026-06-10-launching-package-martaa.html",
+      "/news/2026-04-10-euromech.html",
+      "/news/2025-07-31-aap_cp.html"
     ]
   }
 ]
