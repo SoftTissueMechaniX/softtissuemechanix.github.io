@@ -18,6 +18,8 @@
   journal: "Agence Bibliographique de l’Enseignement Supérieur"
   path: "https://doi.org/10.70675/487b8bb4z38b1z4acaz949czae42c4f5b263"
   description: "[DOI](https://doi.org/10.70675/487b8bb4z38b1z4acaz949czae42c4f5b263)"
+  abstract: "The human cornea, as the eye's outermost transparent layer, plays a vital role in its refractive power. The geometry of the cornea is crucial, as any irregularities can affect its function and visual performance.The stroma makes up about 90% of the cornea's thickness and mainly determines its mechanical properties due to its highly organized collagen structure. Stroma striae, vertical lines in the posterior cornea, can be observed in both healthy and pathological corneas, but they appear morefrequently and are more pronounced in patients with pathologies such as keratoconus.In this thesis, we primarily focus on the biomechanics of the healthy human cornea. Our interest lies in understanding the mechanical properties of the cornea and how they relate to its microstructure. To this end, we coupled Optical Coherence Tomography (OCT) with mechanical testing. Our findings reveal that the cornea exhibits both anisotropy and heterogeniety, particularly in the thickness. We also discovered that stromal striae are fold-like structures at the microscale, and regions containing these striae exhibit greater deformation perpendicular to their orientation compared to the neighboring areas. At an even finer scale, observed using Second Harmonic Generation (SHG) microscopy, we found that this deformation correlates with changes in collagen orientation. Additionally, we observed that the cornea is highly sensitive to its surrouding environment due to its porosity and its osmotic equilibrium with external conditions. This presents challenges for corneal deswelling procedures aimed at restoring physiological thickness and hydration. To address this, we proposed an optimized protocol for effective corneal deswelling."
+  image: "resources/biblio/images/wu_phd.png"
   categories: ["2025", "PhD Manuscript"]
   tags: ["Cornea"]
 
@@ -27,51 +29,62 @@
   journal: "Multidisciplinary Biomechanics Journal"
   path: "https://doi.org/10.46298/mbj.14498"
   description: "[DOI](https://doi.org/10.46298/mbj.14498)"
-  categories: ["2025", "Journal Article"]
+  image: "resources/biblio/images/wu2025.png"
+  categories: ["2025", "Conference Article"]
   tags: ["Cornea"]
 
 - title: "Mechanical properties of stromal striae, and their impact on corneal tissue behavior"
   author: "Qian Wu, Chloé Giraudet, Jean-Marc Allain"
   date: "2024-12-01"
   journal: "Journal of the Mechanical Behavior of Biomedical Materials"
+  abstract: "Cornea is an essential element of our eye. The refractive power of the cornea is closely related to its shape, which depends on the balance between its mechanical properties and the intraocular pressure. However, in keratoconus, the shape of the cornea is altered, and the mechanical properties (i.e., elastic modulus and viscosity) are reduced. These alterations have been associated with the development of striae within the cornea. Recently, such striae have been observed in healthy corneas as well, but with slightly different shapes. Our study investigated the mechanical role of these striae. To this end, we performed an inflation test under Optical Coherence Tomography: tomographic volumes were acquired in the central zone of eleven human corneas during an inflation test. Striae planes were extracted from the segmented images, and principal deformation maps were obtained by Digital Volume Correlation (DVC). We observe that the pattern of the striae does not change with pressure, even far above physiological pressure. Maximum principal strains are co-localized with the striae and are oriented perpendicular to the striae. We also observe that principal deformations on the striae increase with depth in the cornea. Our results show that striae lead to greater deformability in the direction perpendicular to the striae, especially in the posterior part of the cornea where they are the most visible. This supports the idea that the striae are undulations in the cornea collagenous microstructure, which are progressively unfolded under loading. They decrease the global stiffness of the cornea, in particular in the posterior part, and thus may help in accommodating deformations."
   path: "https://doi.org/10.1016/j.jmbbm.2024.106770"
   description: "[DOI](https://doi.org/10.1016/j.jmbbm.2024.106770)"
+  image: "resources/biblio/images/wu2024.png"
   categories: ["2024", "Journal Article"]
   tags: ["Cornea"]
 
 - title: "Microrheology and structural quantification of hypercoagulable clots"
   author: "Laura Wolff-Trombini, Adrien Ceripa, Julien Moreau, Hubert Galinat, Chloe James, Nathalie Westbrook, Jean-Marc Allain"
   date: "2023-07-01"
+  abstract: "Hypercoagulability is a pathology that remains difficult to explain today in most cases. It is likely due to a modification of the conditions of polymerization of the fibrin, the main clot component. Using passive microrheology, we measured the mechanical properties of clots and correlated them under the same conditions with structural information obtained with confocal microscopy. We tested our approach with known alterations: an excess of fibrinogen and of coagulation Factor VIII. We observed simultaneously a rigidification and densification of the fibrin network, showing the potential of microrheology for hypercoagulability diagnosis."
   journal: "Biomedical Optics Express"
   path: "https://doi.org/10.1364/boe.492669"
   description: "[DOI](https://doi.org/10.1364/boe.492669)"
+  image: "resources/biblio/images/wolff-trombini2023.png"
   categories: ["2023", "Journal Article"]
   tags: ["Clot"]
 
 - title: "Identification of PCPE-2 as the endogenous specific inhibitor of human BMP-1/tolloid-like proteinases"
   author: "Sandrine Vadon-Le Goff, Agnès Tessier, Manon Napoli, Cindy Dieryckx, Julien Bauer, Mélissa Dussoyer, Priscillia Lagoutte, Célian Peyronnel, Lucie Essayan, Svenja Kleiser, Nicole Tueni, Emmanuel Bettler, Natacha Mariano, Elisabeth Errazuriz-Cerda, Carole Fruchart Gaillard, Florence Ruggiero, Christoph Becker-Pauly, Jean-Marc Allain, Leena Bruckner-Tuderman, Alexander Nyström, Catherine Moali"
   date: "2023-12-01"
+  abstract: "BMP-1/tolloid-like proteinases (BTPs) are major players in tissue morphogenesis, growth and repair. They act by promoting the deposition of structural extracellular matrix proteins and by controlling the activity of matricellular proteins and TGF-β superfamily growth factors. They have also been implicated in several pathological conditions such as fibrosis, cancer, metabolic disorders and bone diseases. Despite this broad range of pathophysiological functions, the putative existence of a specific endogenous inhibitor capable of controlling their activities could never be confirmed. Here, we show that procollagen C-proteinase enhancer-2 (PCPE-2), a protein previously reported to bind fibrillar collagens and to promote their BTP-dependent maturation, is primarily a potent and specific inhibitor of BTPs which can counteract their proteolytic activities through direct binding. PCPE-2 therefore differs from the cognate PCPE-1 protein and extends the possibilities to fine-tune BTP activities, both in physiological conditions and in therapeutic settings."
   journal: "Nature Communications"
   path: "https://doi.org/10.1038/s41467-023-43401-0"
   description: "[DOI](https://doi.org/10.1038/s41467-023-43401-0)"
+  image: "resources/biblio/images/vadon2023.png"
   categories: ["2023", "Journal Article"]
   tags: ["Others"]
 
 - title: "The Rapid Mechanically Activated (RMA) channel transduces increases in plasma membrane tension into transient calcium influx"
   author: "Yannick Guerringue, Sebastien Thomine, Jean-Marc Allain, Jean-Marie Frachisse"
+  abstract: "Plants respond to mechanical stimuli by a rapid increase in cytosolic calcium. The intensity and kinetics of the calcium changes define calcium signatures important for biological responses. In this study, we determine the properties of a calcium-permeable force-gated channel localized at the plasma membrane called Rapid Mechanically Activated (RMA). Using patch clamp and pressure clamp, we characterized the kinetics of the Arabidopsis thaliana RMA channel upon stimulation by pressure pulses applied onto the plasma membrane. Combining pressure pulse protocols at different frequencies with modeling, we investigated the channel's capacity to transduce high frequency mechanical stimuli. The RMA channel rapidly activates in response to membrane tension, then it inactivates during prolonged stimulation. Upon repeated stimulations, the RMA current amplitude decreases irreversibly indicating that it undergoes attenuation. The channel kinetics were modeled with four chemical states and the model predicts that it behaves as a pass band filter in the 10 Hz–1 kHz range. In conclusion, due to its activation/inactivation, the RMA channel is a candidate for mediating cytosolic calcium signaling in response to mechanostimulation. Its attenuation and filtering properties suggest its involvement in the transduction of high frequency mechanical stimulation, such as those produced by insects' vibrations."
   date: "2025-08-01"
   journal: "openRxiv preprint"
   path: "https://doi.org/10.1101/2025.08.06.668926"
   description: "[DOI](https://doi.org/10.1101/2025.08.06.668926)"
+  image: "resources/biblio/images/guerringue2025.png"
   categories: ["2025", "Preprint"]
   tags: ["Others"]
 
 - title: "On the structural origin of the anisotropy in the myocardium: Multiscale modeling and analysis"
   author: "Nicole Tueni, Jean-Marc Allain, Martin Genet"
+  abstract: "Due to structural heterogeneities within the tissue, the myocardium displays an orthotropic material behavior. However, the link between the microstructure and the macroscopic mechanical properties is still not fully established. In particular, if it is admitted that the cardiomyocyte organization induces a transversely isotropic symmetry, the relative role in the observed orthotropic symmetry of cardiomyocyte orientation variation and perimysium collagen “sheetlet” structure, two mechanisms occurring at different scales, is still a matter of debate. In order to shed light on this question, we designed a multiscale model of the myocardium, bridging the cell, sheetlet and tissue scales. More precisely, we compared the macroscopic anisotropy obtained by homogenization of different mesostructures consisting in cardiomyocytes and extracellular collageneous layers, also taking into account the variation of cardiomyocyte and sheetlet orientations on the macroscale, to available experimental data. This study confirms the importance of sheetlets layers in assuring the tissue’s anisotropic response, as cardiomyocytes-only mesostructures cannot reproduce the observed anisotropy. Moreover, our model shows the existence of a size effect in the myocardial tissue shear properties, which will require further experimental analysis."
   date: "2023-02-01"
   journal: "Journal of the Mechanical Behavior of Biomedical Materials"
   path: "https://doi.org/10.1016/j.jmbbm.2022.105600"
   description: "[DOI](https://doi.org/10.1016/j.jmbbm.2022.105600)"
+  image: "resources/biblio/images/tueni2023.png"
   categories: ["2023", "Journal Article"]
   tags: ["Others"]
 
