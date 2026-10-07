@@ -1,0 +1,49 @@
+---
+title: "Launching Package for the MARTAA project"
+description: "C. Techens is one of the four 2026 laureates of École polytechnique's Launching Packages, supporting her project MARTAA on the mechanobiology of thoracic aortic aneurysms."
+author: "T. Lavigne"
+date: "2026-06-10"
+location: "Palaiseau, France"
+categories: ["Grant"]
+image: "../resources/images/news/martaa.png"
+draft: false
+format: html
+about:
+  id: hero-heading
+  template: solana
+  image-width: 20em
+  image-shape: rounded
+---
+
+<style>
+  /* Add horizontal space between image and text on desktop screens */
+  @media (min-width: 768px) {
+    .quarto-about-solana .about-image {
+      margin-left: 3rem !important;
+    }
+  }
+</style>
+
+:::{#hero-heading}
+:::
+
+
+## Event Summary
+
+We are delighted to announce that **Chloé Techens**, Assistant Professor at the Laboratoire de Mécanique des Solides, has been awarded a **Launching Package** from École polytechnique for her project **MARTAA**. She is one of the four laureates of the 2026 edition, celebrated on 10 June 2026.
+
+Created in 2024 and funded by the **Fondation de l'École polytechnique** through its *Servir la science* campaign, the Launching Packages provide newly recruited faculty members with around **€300,000 over three years** to set up their research team: equipment, PhD and postdoctoral fellowships, internships and conferences.
+
+### The MARTAA project
+
+Chloé's research focuses on mechanobiology: how cells sense, interpret and modify the mechanical properties of their environment. At the microscopic scale, this reciprocal dialogue between cells and the extracellular matrix maintains tissue homeostasis, and when the balance is disrupted, diseases emerge.
+
+MARTAA takes **thoracic aortic aneurysms** as a key case study. The project first builds an **experimental model of the extracellular matrix using hydrogels**, monitored at the microscopic scale over time to follow changes in their microstructure. Combined with multiscale mechanical analyses, this approach aims in the long term at **earlier and more personalized diagnosis** of the disease.
+
+<!-- Optional ceremony photo (© École polytechnique – Corinne Hameau):
+![Laureates and jury of the 2026 Launching Packages. © École polytechnique – Corinne Hameau](../resources/images/news/launching_packages_2026.jpg){fig-align="center" width="80%"}
+-->
+
+::: {.callout-note appearance="simple"}
+**Read more:** [Four young scientists are launching their research project at École polytechnique](https://www.polytechnique.edu/en/news/four-young-scientists-are-launching-their-research-project-ecole-polytechnique)
+:::
