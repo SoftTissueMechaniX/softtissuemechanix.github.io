@@ -30,7 +30,7 @@
   path: "https://doi.org/10.46298/mbj.14498"
   description: "[DOI](https://doi.org/10.46298/mbj.14498)"
   image: "resources/biblio/images/wu2025.png"
-  categories: ["2025", "Conference Article"]
+  categories: ["2025", "Conference Paper"]
   tags: ["Cornea"]
 
 - title: "Mechanical properties of stromal striae, and their impact on corneal tissue behavior"
@@ -91,45 +91,55 @@
 - title: "Volumetric mechanical properties of soft tissues measured by optical coherence tomography: application to corneal heterogeneity"
   author: "Chloé Giraudet, Qian Wu, Jean-Marc Allain"
   date: "2025-09-01"
+  abstract: "Biological tissues have complex mechanical properties, which are deeply related to their function. It is thus needed to quantify the volumetric displacements induced by mechanical load, rather than only surface displacements. In this article, we propose to use Optical Coherence Tomography as a simple and fast method to quantify the volumetric deformation of the cornea under pressure. Indeed, the cornea plays a key role in vision, and any mechanical defect can impact the eye as it is under the intraocular pressure. Our observations show that, in the tangential direction, the cornea deforms more in the posterior than in the anterior region. In the depth direction, we observed a strong compression, with depth-dependent heterogeneity, delineating three distinct regions. This strong compression can be explained only by important outward water fluxes. Our study shows the complexity of human corneal mechanics, highlighting the need of adequate volumetric measure to characterize its strong anisotropy and depth-dependent behavior."
   journal: "Journal of the Mechanical Behavior of Biomedical Materials"
   path: "https://doi.org/10.1016/j.jmbbm.2025.107078"
   description: "[DOI](https://doi.org/10.1016/j.jmbbm.2025.107078)"
+  image: "resources/biblio/images/giraudet2025.png"
   categories: ["2025", "Journal Article"]
   tags: ["Cornea"]
 
 - title: "Assessment of Human Corneal Biomechanical Properties After Refractive Surgery With Inflation Test Using Optical Coherence Tomography"
   author: "Benjamin Memmi, Qian Wu, Vincent Borderie, Jean-Marc Allain"
+  abstract: "Purpose: To evaluate the biomechanical properties of the cornea after refractive surgery using an inflation test combined with optical coherence tomography (OCT). Methods: Nine human donor corneas were divided into two groups: healthy (control) and treated (divided into three subgroups: photorefractive keratectomy [PRK], laser in situ keratomileusis [LASIK], and small incision lenticule extraction). Refractive treatments were applied to simulate -4.00 diopters of myopia correction. The corneas were mounted on an artificial anterior chamber, and an inflation test was performed using a custom set-up. Intraocular pressure was increased from 15 to 120 mm Hg in steps of 15 mm Hg, and corneal deformation was monitored via OCT imaging. The apex displacement versus IOP relationship was analyzed to calculate corneal stiffness, expressed as Young's modulus. Corneal thickness and curvature were also measured. Statistical comparisons were performed between healthy and treated corneas. Results: All treated corneas exhibited significant reductions in thickness and Young's modulus compared to the healthy group. The mean corneal thickness was 552.0 ± 5.9 µm in the healthy group and 486.9 ± 14.0 µm in the treated group (P < .05). Young's modulus was significantly lower in treated corneas (14.2 ± 4.9 MPa) compared to healthy corneas (22.9 ± 0.5 MPa, P = .02). Among surgical techniques, LASIK resulted in the greatest reduction in corneal stiffness, whereas PRK showed the least impact. Conclusions: Inflation testing combined with OCT imaging allows for precise assessment of biomechanical alterations following refractive surgery. These findings highlight the importance of considering biomechanical consequences when selecting refractive procedures."
   date: "2026-01-01"
   journal: "Journal of Refractive Surgery"
   path: "https://doi.org/10.3928/1081597x-20251202-03"
   description: "[DOI](https://doi.org/10.3928/1081597x-20251202-03)"
+  image: "resources/biblio/images/memmi2026.png"
   categories: ["2026", "Journal Article"]
   tags: ["Cornea"]
 
-- title: "mechanical and numerical modelling of transient shear wave elastography for the cornea"
+- title: "Mechanical and numerical modelling of transient shear wave elastography for the cornea"
   author: "Giulia Merlini"
+  abstract: "Recent advances in dynamic elastography have enabled rapid, localized, and non-invasive acquisition of corneal mechanical data, making these techniques promising for in-vivo applications. The primary aim of this thesis is the development of a computational model that could reproduce transient elastographic measurements and give access to mechanical properties of the cornea as a diagnostic tool. As a first step, we derive a variational formulation for linear wave propagation in hyperelastic, nearly incompressible and preloaded solids. The numerical approximation of wave propagation problems in nearly or pure incompressible solids faces several challenges such as locking and stability constraints. In this work we propose a stabilized Leapfrog scheme based on the use of Chebyshev polynomials to relax the stability condition. A 3D nonlinear static model of the cornea is developed to simulate the tissue's preloaded state under intraocular pressure. The anisotropic behavior, given by the presence of a complex collagen network within the cornea, is described with a microsphere model. By linearization, the constitutive behavior of the tissue is derived for the wave propagation problem, which is then solved using the previously described numerical method. Furthermore, we address the case where the assumption of linear wave propagation may not be sufficient. We propose the application of a novel numerical method for solving nonlinear elastodynamic problems. This fully explicit, three-step method ensures stability through a posteriori energy criterion. The nonlinear static model of the cornea is then coupled with the nonlinear wave propagation model. Finally, the impact of fluid interaction on elastic waves is studied using guided wave theory, modeling the cornea as an incompressible waveguide and solving the problem as a generalized eigenvalue problem with boundary conditions for fluid interaction."
   date: "2025-01-01"
   journal: "Agence Bibliographique de l’Enseignement Supérieur"
   path: "https://doi.org/10.70675/c8a4cfd8z4756z4935z86aaz1638d787c549"
   description: "[DOI](https://doi.org/10.70675/c8a4cfd8z4756z4935z86aaz1638d787c549)"
+  image: "resources/biblio/images/merlini_phd.png"
   categories: ["2025", "PhD Manuscript"]
   tags: ["Cornea"]
 
 - title: "Finite element modeling of transient shear wave elastography for the cornea"
   author: "Giulia Merlini, Sebastien Imperiale, Jean-Marc Allain"
+  abstract: "Recent advances in dynamic elastography have enabled rapid, localized, and non-invasive mechanical data acquisition of the cornea. This data opens the path to early-detection of pathologies and more accurate treatment. However, the analysis of the wave propagation is a complex mechanical problem: the cornea is a structure under pressure, with non-linear material behavior. Thus, computational analysis are needed to extract mechanical parameters from the data. In this study, we present a time-dependent finite element model for the reproduction of transient shear wave elastographic measurements in the cornea. The mechanical problem consists in a small-amplitude wave propagating in the cornea, largely deformed by intraocular pressure in physiological conditions. The model accounts for anisotropic, hyperelastic, and incompressible behavior of the cornea, as well as its accurate geometry and preloaded condition. We have implemented two different numerical approaches to solve first the static non-linear inflation of the cornea and then the linear wave propagation problem to reproduce the measurements. We investigate the impact of material anisotropy and prestress on wave propagation and demonstrate that intraocular pressure critically influences shear wave velocity. Additionally, by introducing a localized mechanical defect to simulate a pathological defect, we show that simulated shear wave can detect and quantify mechanical weaknesses, suggesting potential as a diagnostic tool to assess corneal health."
   date: "2026-01-01"
   journal: "Journal of the Mechanics and Physics of Solids"
   path: "https://doi.org/10.1016/j.jmps.2025.106363"
   description: "[DOI](https://doi.org/10.1016/j.jmps.2025.106363)"
+  image: "resources/biblio/images/merlini2026.png"
   categories: ["2026", "Journal Article"]
   tags: ["Cornea"]
 
 - title: "Fully explicit numerical scheme for linearized wave propagation in nearly-incompressible soft hyperelastic solids"
   author: "Giulia Merlini, Jean-Marc Allain, Sébastien Imperiale"
+  abstract: "The numerical approximation of wave propagation problems in nearly or pure incompressible solids faces several challenges such as locking and stability constraints. In this work we propose a stabilized Leapfrog scheme based on the use of Chebyshev polynomials to relax the stability condition, which is strongly limited by the enforcement of incompressibility. The scheme is fully explicit, second order accurate and energy-preserving. For the space discretization we use a mixed formulation with high-order spectral elements and mass-lumping. A strategy is proposed for an efficient and accurate computation of the pressure contribution with a new definition of the discrete Grad-div operator. Finally, we consider linear wave propagation problems in nearly-incompressible hyperelastic solids subject to static preload."
   date: "2025-11-01"
   journal: "Wave Motion"
   path: "https://doi.org/10.1016/j.wavemoti.2025.103594"
   description: "[DOI](https://doi.org/10.1016/j.wavemoti.2025.103594)"
+  image: "resources/biblio/images/merlini2025.png"
   categories: ["2025", "Journal Article"]
   tags: ["Others"]
 
@@ -147,36 +157,44 @@
 - title: "Biointegration of a partially decellularized tracheal scaffold in a porcine model - preliminary results"
   author: "Augustin Vigouroux, Yannis Bonnin, Nicolas Gendron, Sabrina Kellouche, Rémy Agniel, Patrick Bruneval, Daniel Balvay, Jean-Marc Allain, Stéphanie Chhun, Hervé Kempf, Romain Hugon, Magali Devriese, Caroline Sansac, Jérôme Larghero, Lousineh Arakelian, Briac Thierry"
   date: "2026-02-01"
+  abstract: "Some pediatric tracheal pathologies remain therapeutic dead ends for which current palliative strategies are fraught with serious complications. With the aim of a tracheal replacement, our team has previously developed and patented a clinical grade partially decellularized trachea (PDT) from porcine tracheas. The aim of this work was to study and compare the biointegration mechanisms of this PDT in vivo, in a pig cervical muscle, with or without immunosuppressant. The secondary objective was to evaluate the optimal maturation time of the PDT in this heterotopic position. In total, 11 female Large White/Landrace pigs, weighing between 50 and 70 kg were included in this study. The mean age of the animals at the implantation was 4.8 months. The PDTs were implanted in a cervical muscle of pigs for either 28 days, with or without cyclosporin A treatment, or for 56 days without immunosuppression. Histological evaluation showed very good PDT biointegration, characterized by neovascularization and fibroblast colonization, and no detectabale infection. Additionally, tissue and blood analyses showed no signs of graft rejection or surrounding tissue necrosis. Immunosuppression did not show any superiority in terms of biointegration after 28 days of treatment. After 56 days of implantation, a more significant degradation of the cartilage. Therefore, the optimal condition for PDT maturation proved to be 28 days, without immunosuppression."
   journal: "Scientific Reports"
   path: "https://doi.org/10.1038/s41598-026-37823-1"
   description: "[DOI](https://doi.org/10.1038/s41598-026-37823-1)"
+  image: "resources/biblio/images/vigouroux2026.png"
   categories: ["2026", "Journal Article"]
-  tags: ["Hydrogel"]
+  tags: ["Others"]
 
 - title: "Community challenge towards consensus on characterization of biological tissue: C4Bio’s first findings"
   author: "Nele Famaey, Heleen Fehervary, Yoann Lafon, Ali Akyildiz, Silke Dreesen, Karine Bruyère-Garnier, Jean-Marc Allain, Marta Alloisio, Alejandro Aparici-Gil, Chiara Catalano, Fanette Chassagne, Snehal Chokhandre, Kimberly Crevits, Hanneke Crielaard, Eoghan Cunnane, Connor Cunnane, Karen De Leener, Amisha Desai, Rob Driessen, Ahmet Erdemir, Mona Eskandari, Sam Evans, Christian Gasser, Marc Gebhardt, Birgit Glasmacher, Gerhard A. Holzapfel, Mikel Isasi, Louise Jennings, Sascha Kurz, Sara Leal-Marin, Pauline Lecomte, Annie Morch, John Mulvihill, Fulufhelo Nemavhola, Thanyani Pandelani, Salvatore Pasta, Estefania Peña, Baptiste Pierrat, Heidi-Lynn Ploeg, Stanislav Polzer, Manuel Rausch, David Schwarz, Hazel Screen, Selda Sherifova, Gerhard Sommer, Shengzhang Wang, Darragh Walsh, Deepesh Yadav, Thierry Marchal, Liesbet Geris"
   date: "2026-01-01"
+  abstract: "This study investigates methodological variability across various expert laboratories worldwide, with regards to characterizing the mechanical properties of biological tissues. Two testing rounds were conducted on the specific use case of uniaxial tensile testing of porcine aorta. In the first round, 24 labs were invited to apply their established methods to assess inter-laboratory variability. This revealed significant methodological diversity and associated variability in the stress–stretch results, underscoring the necessity for a standardized approach. In the second round, a consensus protocol was collaboratively developed and adopted by 19 labs in an attempt to minimize variability. This involved standardized sample preparation and uniformity in testing protocol, including the use of a common cutting and thickness measurement tool. Despite protocol harmonization, significant variability persisted across labs, which could not be solely attributed to inherent biological differences in tissue samples. These results illustrate the challenges in unifying testing methods across different research settings, underlining the necessity for further refinement of testing practices. Enhancing consistency in biomechanical experiments is pivotal when comparing results across studies, as well as when using the resulting material properties for in silico simulations in medical research."
   journal: "Journal of Biomechanics"
   path: "https://doi.org/10.1016/j.jbiomech.2025.113021"
   description: "[DOI](https://doi.org/10.1016/j.jbiomech.2025.113021)"
+  image: "resources/biblio/images/famaey2026.png"
   categories: ["2026", "Journal Article"]
   tags: ["Others"]
 
 - title: "Development of a rabbit model of uterine rupture after caesarean section, histological, biomechanical and polarimetric analysis of the uterine tissue"
   author: "Elodie Debras, Constance Maudot, Jean-Marc Allain, Angelo Pierangelo, Aymeric Courilleau, Julie Riviere, Michèle Dahirel, Christophe Richard, Valérie Gelin, Gwendoline Morin, Perrine Goussault Capmas, Pascale Chavatte-Palmer"
   date: "2025-09-01"
+  abstract: "Uterine rupture is a major complication of caesarean section (CS) associated with high fetal and maternal morbidity. The objective is to develop an in vivo model of uterine healing and rupture after CS in order to analyse histological phenomena controlling scarring tissue development and potential causes of defects. Eighteen pregnant primiparous female rabbits were bred naturally. At caesarean, after 28 days of gestation, foetuses were either extracted through a longitudinal incision in one of the uterine horns ('CS horn') or via a short incision at the tip of the contralateral horn ('control horn'). The uterine horns were sutured in a single layer, all by the same surgeon. They were mated again 14 days later and euthanised at G28. Genital tracts were collected for histological, biomechanical and polarimetric analyses. Macroscopically, 2/18 presented a dehiscence and 1/18 a spontaneous rupture. The mean thickness of the scarred area was significantly lower, 0.9 mm (0.7-1.4), than the non-scarred area on CS horns 2.2 (1.6-2.3) or control horns 2 (1.5-2.3) (P < 0.0001). The scar zone was statistically more fibrous (P < 0.0001), containing fewer vessels (P = 0.03), oestrogen receptors (P < 0.001) and progesterone receptors (P < 0.0001). After balloon inflation, rupture occurred in the scar zone in 8 out of 17 cases (47%). Polarimetry revealed that the scar zone was statistically inhomogeneous (73%). Multifactorial analysis identified groups with poor uterine healing and less resistance to rupture (balloon inflation), mostly in cases of thin myometrium in the scar, and a group with strong resistance to rupture and correct healing characteristics."
   journal: "Reproduction and Fertility"
   path: "https://doi.org/10.1530/raf-25-0018"
   description: "[DOI](https://doi.org/10.1530/raf-25-0018)"
+  image: "resources/biblio/images/debras2025.png"
   categories: ["2025", "Journal Article"]
   tags: ["Others"]
 
 - title: "Mechanics of pressurized cellular sheets"
   author: "Thomas G. J. Chandler, Jordan Ferria, Oliver Shorthose, Jean-Marc Allain, Perla Maiolino, Arezki Boudaoud, Dominic Vella"
+  abstract: "Everyday experience shows that cellular sheets are stiffened by the presence of a pressurized gas: from bicycle inner tubes to bubble wrap, the presence of an internal pressure increases the stiffness of otherwise floppy structures. The same is true of plants, with turgor pressure (due to the presence of water) taking the place of gas pressure; indeed, in the absence of water, many plants wilt. However, the mechanical basis of this stiffening is somewhat opaque: simple attempts to rationalize it suggest that the stiffness should be independent of the pressure, at odds with everyday experience. Here, we study the mechanics of sheets that are a single-cell thick and show how a pressure-dependent bending stiffness may arise. Our model rationalizes observations of turgor-driven shrinkage in plant cells and also suggests that turgor is unlikely to provide significant structural support in many monolayer leaves, such as those found in mosses. However, for such systems, turgor does provide a way to control leaf shape, in accordance with observations of curling upon drying of moss leaves. Guided by our results, we also present a biomimetic actuator that uncurls upon pressurization."
   date: "2025-02-01"
   journal: "Journal of The Royal Society Interface"
   path: "https://doi.org/10.1098/rsif.2024.0653"
   description: "[DOI](https://doi.org/10.1098/rsif.2024.0653)"
+  image: "resources/biblio/images/merlini2025b.png"
   categories: ["2025", "Journal Article"]
   tags: ["Others"]
 
@@ -186,14 +204,6 @@
   journal: "Optical Systems for Mechanical and Biophysical Investigation"
   path: "https://doi.org/10.1117/12.3097977"
   description: "[DOI](https://doi.org/10.1117/12.3097977)"
+  image: "resources/biblio/images/kouba2025.png"
   categories: ["2025", "Conference Paper"]
   tags: ["Clot"]
-
-- title: "Hierarchical poromechanical approach to investigate the impact of mechanical loading on human skin micro-circulation"
-  author: "Thomas Lavigne, Stéphane Urcun, Bérengère Fromy, Audrey Josset-Lamaugarny, Alexandre Lagache, Camilo A. Suarez-Afanador, Stéphane P. A. Bordas, Pierre-Yves Rohan, Giuseppe Sciumè"
-  date: "2025-01-01"
-  journal: "International Journal for Numerical Methods in Biomedical Engineering"
-  path: "https://doi.org/10.1002/cnm.70066"
-  description: "[DOI](https://doi.org/10.1002/cnm.70066) [arXiv](https://arxiv.org/abs/2502.17354)"
-  categories: ["2025", "Journal Article"]
-  tags: ["Others"]
