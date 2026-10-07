@@ -124,8 +124,10 @@
   author: "Chloé Techens, Amira Ben Hassine, Edwin-Joffrey Courtial, David Eglin, Stéphane Avril"
   date: "2026-03-01"
   journal: "Journal of the Mechanical Behavior of Biomedical Materials"
+  abstract: "Smooth muscle cells (SMCs) of elastic arteries are essential to maintain mechanical homeostasis in the media layer. However, investigating the SMCs mechanoregulation mechanisms important to understand homeostasis and diseases progression, is hampered by a lack of in vitro model replicating realistic biological conditions. Indeed, previous studies have mainly been performed on 2D surfaces rather than in a 3D environment replicating more closely the tissue mechanics and composition. Thus, the objective of this study was to optimize a collagen hydrogel embedding SMCs 3D culture model where the “contractile” phenotype expressed by SMCs in healthy aortas, assessed by a spindle-shaped morphotype will be reproduced and conserved. A Design of Experiment (DoE) was established where 12 chemically different hydrogels were tested varying pH and collagen concentrations (7.4/7.7/8, 2.5/5.0/7.5/10.0 mg/mL) with 3 cell densities (50 000/100 000/150 000 cells/mL). SMCs contractile morphotype was optimal for low-collagen concentration hydrogels seeded at SMCs density of 100 000 cells/mL, independently of the hydrogel pH. The study provided an overview of the adaptation of the SMC population to the matrix shear modulus and viscosity, and provide a parameterized 3D model to study mechanoregulation of SMCs."
   path: "https://doi.org/10.1016/j.jmbbm.2025.107323"
   description: "[DOI](https://doi.org/10.1016/j.jmbbm.2025.107323)"
+  image: "resources/biblio/teschens2026.png"
   categories: ["2026", "Journal Article"]
   tags: ["Hydrogel"]
 
