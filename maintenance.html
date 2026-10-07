@@ -333,6 +333,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#global" id="toc-global" class="nav-link" data-scroll-target="#global">Global</a></li>
   <li><a href="#home-home.qmd" id="toc-home-home.qmd" class="nav-link" data-scroll-target="#home-home.qmd">Home (home.qmd)</a></li>
   <li><a href="#members-e-mails" id="toc-members-e-mails" class="nav-link" data-scroll-target="#members-e-mails">Members — e-mails</a></li>
+  <li><a href="#members-empty-sections" id="toc-members-empty-sections" class="nav-link" data-scroll-target="#members-empty-sections">Members — empty sections</a></li>
   <li><a href="#research-research.qmd" id="toc-research-research.qmd" class="nav-link" data-scroll-target="#research-research.qmd">Research (research.qmd)</a></li>
   <li><a href="#publications" id="toc-publications" class="nav-link" data-scroll-target="#publications">Publications</a></li>
   <li><a href="#news" id="toc-news" class="nav-link" data-scroll-target="#news">News</a></li>
@@ -371,6 +372,12 @@ ul.task-list li input[type="checkbox"] {
 <li>In description: <code>&lt;span class='stm-email' data-user='first.last' data-domain='polytechnique.edu'&gt;&lt;/span&gt;</code></li>
 <li>In about links: <code>href: "#email:first.last:polytechnique.edu"</code></li>
 <li>Never write <code>name@domain</code> or <code>mailto:</code> in source.</li>
+</ul>
+</section>
+<section id="members-empty-sections" class="level2">
+<h2 class="anchored" data-anchor-id="members-empty-sections">Members — empty sections</h2>
+<ul>
+<li>Each listing in members.qmd is followed by <code>::: {.stm-empty-listing}</code> with a message; CSS (<code>:has</code>) shows it only when that section’s listing has no entries. Empty folders keep a <code>.gitkeep</code>.</li>
 </ul>
 </section>
 <section id="research-research.qmd" class="level2">
