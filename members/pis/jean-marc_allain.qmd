@@ -1,5 +1,6 @@
 ---
-title: "Jean-Marc ALLAIN"
+title: "Jean-Marc Allain"
+lastname: "Allain"   # sort key (no accents)
 subtitle: "Professor"
 order: 1
 image: ../../resources/images/members/pis/jean-marc_allain.jpg

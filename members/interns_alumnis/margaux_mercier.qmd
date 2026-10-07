@@ -1,5 +1,6 @@
 ---
 title: "Margaux Mercier"
+lastname: "Mercier"   # sort key (no accents)
 subtitle: "Master's Intern"
 image: ../../resources/images/members/interns/margaux_mercier.jpeg
 description: "**Next Position:** To be communicated."

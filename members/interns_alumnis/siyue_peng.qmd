@@ -1,5 +1,6 @@
 ---
 title: "Siyue Peng"
+lastname: "Peng"   # sort key (no accents)
 subtitle: "Former Intern (2025)"
 image: ../../resources/images/members/placeholder_person.png
 description: "**Next Position:** To be communicated"

@@ -1,5 +1,6 @@
 ---
 title: "Parsa Namazian"
+lastname: "Namazian"   # sort key (no accents)
 subtitle: "Master's Intern"
 image: ../../resources/images/members/interns/parsa_namazian.jpeg
 description: "Next Position: To be communicated."

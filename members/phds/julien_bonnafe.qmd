@@ -1,5 +1,6 @@
 ---
 title: "Julien Bonnafé"
+lastname: "Bonnafe"   # sort key (no accents)
 subtitle: "PhD Candidate"
 image: ../../resources/images/members/phds/julien_bonnafe.jpeg
 description: "Thesis started: 2023 <br> CIFRE PhD: EssilorLuxottica & Inria <br> Room: 104-20-214"

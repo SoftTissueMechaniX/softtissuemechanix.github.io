@@ -1,5 +1,6 @@
 ---
 title: "Chloé Techens"
+lastname: "Techens"   # sort key (no accents)
 subtitle: "Assistant Professor"
 order: 2
 image: ../../resources/images/members/pis/chloe_techens.jpeg

@@ -1,5 +1,6 @@
 ---
 title: "Odette Ngann"
+lastname: "Ngann"   # sort key (no accents)
 subtitle: "Former Intern (April 2025)"
 image: ../../resources/images/members/placeholder_person.png
 description: "**Next Position:** Master 1 IPP (Biomedical Engineering)"

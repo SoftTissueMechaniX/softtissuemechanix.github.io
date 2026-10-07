@@ -18,7 +18,7 @@ listing:
     image-align: left
     image-height: 150px
     fields: [image, title, subtitle, description]
-    sort: "title asc"
+    sort: "lastname asc"
     sort-ui: false
     filter-ui: false
 
@@ -28,7 +28,7 @@ listing:
     image-align: left
     image-height: 150px
     fields: [image, title, subtitle, description]
-    sort: "title asc"
+    sort: "lastname asc"
     sort-ui: false
     filter-ui: false
     
@@ -38,7 +38,7 @@ listing:
     image-align: left
     image-height: 150px
     fields: [image, title, subtitle, description]
-    sort: "title asc"
+    sort: "lastname asc"
     sort-ui: false
     filter-ui: false
     
@@ -48,7 +48,7 @@ listing:
     image-align: left
     image-height: 150px
     fields: [image, title, subtitle, description]
-    sort: "title asc"
+    sort: "lastname asc"
     sort-ui: false
     filter-ui: false
 ---

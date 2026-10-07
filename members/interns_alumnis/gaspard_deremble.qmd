@@ -1,5 +1,6 @@
 ---
 title: "Gaspard Deremble"
+lastname: "Deremble"   # sort key (no accents)
 subtitle: "Former Intern (Dec 2025 - Mar 2026)"
 image: ../../resources/images/members/interns/gaspard_deremble.jpeg
 description: "**Next Position:** Student at École Polytechnique"

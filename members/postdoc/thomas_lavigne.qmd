@@ -1,5 +1,6 @@
 ---
 title: "Thomas Lavigne"
+lastname: "Lavigne"   # sort key (no accents)
 subtitle: "Postdoctoral Researcher"
 image: ../../resources/images/members/postdoc/thomas_lavigne.png
 description: "Project: SMCs in porous collagen hydrogels <br> Room: 104-20-213 <br>  **Dates:** Dec 2025 - Nov 2027"

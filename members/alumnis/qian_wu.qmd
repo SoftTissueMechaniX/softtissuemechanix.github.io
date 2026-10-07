@@ -1,5 +1,6 @@
 ---
 title: "Qian Wu"
+lastname: "Wu"   # sort key (no accents)
 subtitle: "Former PhD Student (Defended 2025)"
 image: ../../resources/images/members/phds/qian_wu.jpeg
 description: "**Next Position:** Research engineer at EPF"

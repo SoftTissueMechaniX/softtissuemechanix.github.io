@@ -1,5 +1,6 @@
 ---
 title: "Kateřina Škardová"
+lastname: "Skardova"   # sort key (no accents)
 subtitle: "Postdoctoral Researcher"
 image: ../../resources/images/members/postdoc/katerina_skardova.jpeg
 description: "Project: Meshing and interfaces <br> Room: 104-20-215 <br>  **Dates:** Aug 2023 - Present"

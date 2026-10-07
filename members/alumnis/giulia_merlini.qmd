@@ -1,5 +1,6 @@
 ---
 title: "Giulia Merlini"
+lastname: "Merlini"   # sort key (no accents)
 subtitle: "Former PhD Student (Defended 2025)"
 image: ../../resources/images/members/phds/giulia_merlini.jpeg
 description: "**Current Position:** Postdoc at ENPC"

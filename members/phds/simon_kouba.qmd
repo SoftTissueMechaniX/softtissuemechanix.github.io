@@ -1,5 +1,6 @@
 ---
 title: "Simon Kouba"
+lastname: "Kouba"   # sort key (no accents)
 subtitle: "PhD Candidate"
 image: ../../resources/images/members/phds/simon_kouba.jpeg
 description: "Thesis started: 2023 <br> Directors: J.-M. Allain & N. Westbrook <br> Room: 104-20-213"
