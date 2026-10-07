@@ -1,7 +1,7 @@
 ---
 title: "Bastien Sauty"
 subtitle: "Postdoctoral Researcher"
-image: ../../resources/images/members/postdoc/bastien_sauty.jpg
+image: ../../resources/images/members/postdoc/bastien_sauty.png
 description: "Project: SCOPE I4H <br> Room: 104-20-215 <br>  *Dates:* 2026 - Present"
 about:
   id: hero-heading
