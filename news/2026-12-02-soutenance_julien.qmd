@@ -1,0 +1,39 @@
+---
+title: "Soutenances de thèse : Julien BONNAFE"
+description: "Nous avons le plaisir de vous relayer l’annonce de la soutenance de thèse de Julien BONNAFE, le 2 Décembre 2026 à 11h. Julien BONNAFE a réalisé sa thèse au Laboratoire de Mécanique des Solides à Palaiseau sur la modélisation biomécanique des muscles extra-oculaires pour la mise en mouvement d’un modèle d’œil, appliquée à la myopie."
+author: "T. Lavigne"
+date: "2026-12-02"
+end-date: "2026-12-02"
+location: "Polytechnique"
+categories: ["Soutenances de thèse"]
+image: "../resources/images/news/bonnafe.jepg"
+draft: false
+format: html
+about:
+  id: hero-heading
+  template: solana
+  image-width: 20em
+  image-shape: rounded
+---
+
+<style>
+  /* Add horizontal space between image and text on desktop screens */
+  @media (min-width: 768px) {
+    .quarto-about-solana .about-image {
+      margin-left: 3rem !important;
+    }
+  }
+</style>
+
+:::{#hero-heading}
+:::
+
+
+## Abstract
+
+Myopia primarily results from the eye's excessive axial elongation during childhood. This process involves substantial scleral remodeling and is therefore partially governed by biomechanics. Finite element modeling is well suited to studying these mechanisms; however, existing ocular Finite Element models are largely generic and static. They rarely account for growth, remodeling, or inter-individual variability in ocular biometry, which is shaped by genetic, behavioral, and environmental factors. Additionally, it has recently been hypothesized that eye movements contribute to the development of myopia, for example, by exerting loads on the posterior sclera through the action of the extraocular muscles and the optic nerve during adduction. Testing this hypothesis requires an accurate representation of eye movements personalized to individual anatomy.
+
+In this thesis, we have developped patient-specific biomechanical models that link eye movements to ocular growth. We first developped a framework to simulate the motion of the eye due to the contraction of the muscle. To do so, we started from a MRI images, that were segmented to create a realistic mesh including the ocular globe, the optic nerve and the extra-ocular muscles. Through a Hill-based model of the muscle contraction, we simulated the eye movements, obtaining a rotation and a translation. The model was improved to better take into account the spatial heterogeneity of the muscle, both in contraction and in stiffness. Our final model also includes the intraocular pressure, the orbital fat support, and an improved muscle insertion on the sclera based on biometric observations from the literature. This allowed us to observe contraction patterns that more closely resemble those observed in MRIs. We achieve gaze angles for which the translation of the ocular globe is similar to the values reported in the literature. However, stress concentrations within the muscle and simplification of antagonist muscle action prevented us from simulating a larger range of movements and complicate comparison with available experimental data. We still observe significant stress levels at the optic nerve insertion compared to intraocular pressure stresses alone. This shows that such movements may have a significant impact on mechanically-induced remodeling of the eye.
+Finally, we developed a finite element model of axial elongation to simulate emmetropization and myopia development on a simplified geometry. This model relies on a refractive error feedback loop that drives eye development during childhood. On top of this purely optic model, we explored the mechanoadaptation hypothesis to explain the characteristic features of myopic eyes, and in particular its shape and length. To do so, we introduce an oscillatory loading, mimicking the stress distribution around the optic nerve that we simulated on the real eye. Our simulation explains easily the development of an asymmetry in the eye shape that is reported on myopic eyes.
+
+In the long term, coupling such models with others, notably detailed optical models, could help identify myopia progression patterns and provide patient-specific tools for predicting myopia evolution.
