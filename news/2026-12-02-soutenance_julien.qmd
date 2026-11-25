@@ -1,12 +1,12 @@
 ---
-title: "Soutenances de thèse : Julien BONNAFE"
-description: "Nous avons le plaisir de vous relayer l’annonce de la soutenance de thèse de Julien BONNAFE, le 2 Décembre 2026 à 11h. Julien BONNAFE a réalisé sa thèse au Laboratoire de Mécanique des Solides à Palaiseau sur la modélisation biomécanique des muscles extra-oculaires pour la mise en mouvement d’un modèle d’œil, appliquée à la myopie."
+title: "Soutenances de thèse : Julien BONNAFÉ"
+description: "Nous avons le plaisir de vous relayer l’annonce de la soutenance de thèse de Julien BONNAFÉ, le 2 Décembre 2026 à 11h. Julien BONNAFÉ a réalisé sa thèse au Laboratoire de Mécanique des Solides à Palaiseau sur la modélisation biomécanique des muscles extra-oculaires pour la mise en mouvement d’un modèle d’œil, appliquée à la myopie."
 author: "T. Lavigne"
 date: "2026-12-02"
 end-date: "2026-12-02"
 location: "Polytechnique"
 categories: ["Soutenances de thèse"]
-image: "../resources/images/news/bonnafe.jepg"
+image: "../resources/images/news/bonnafe.jpeg"
 draft: false
 format: html
 about:
