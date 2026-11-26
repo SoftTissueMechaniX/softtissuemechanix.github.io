@@ -6,7 +6,7 @@ date: "2026-11-23"
 end-date: "2026-11-27"
 location: "Compiègne, France"
 categories: ["Conference"]
-image: "../resources/images/news/gdr_compiegne.jpg"
+image: "../resources/images/news/gdr_compiegne_all.jpeg"
 draft: false
 format: html
 about:
