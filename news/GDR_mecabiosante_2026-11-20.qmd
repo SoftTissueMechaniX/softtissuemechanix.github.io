@@ -1,0 +1,82 @@
+---
+title: "Come see us at GdR Compiègne!"
+description: "G. Lafitte, M. Otoya and J.M. Allain are representing the group at the **5th annual days of the GDR Mecabio Santé**, held at the BioMécanique et BioIngéniérie lab (BMBI) at UTC in France."
+author: "M. Otoya & T. Lavigne"
+date: "2026-11-23"
+end-date: "2026-11-27"
+location: "Compiègne, France"
+categories: ["Conference"]
+image: "../resources/images/news/gdr_compiegne.jpg"
+draft: false
+format: html
+about:
+  id: hero-heading
+  template: solana
+  image-width: 20em
+  image-shape: rounded
+---
+
+<style>
+  /* Add horizontal space between image and text on desktop screens */
+  @media (min-width: 768px) {
+    .quarto-about-solana .about-image {
+      margin-left: 3rem !important;
+    }
+  }
+</style>
+
+:::{#hero-heading}
+:::
+
+
+## Event Summary
+
+From **November 24^{th} to the 26^{th} 2026**, **Guillaume Lafitte**, **Mariana Otoya** and **Jean-Marc Allain** are representing the group at the **5th annual days of the GDR Mecabio Santé**, held at the "BioMécanique et BioIngéniérie" lab (BMBI) at UTC Compiègne in France.
+
+This year the annual days were made in collaboration with two other GDR: the GDR *Micro NanoFluidique* and the GDR *Réparer l'humain*. Two mini-symposia were organised:
+
+- Mini-symposium "(Ultra)sound and In Situ Approaches to Probe, Monitor and Reshape Tissues" in collaboration with the GDR *Réparer l'Humain* (Jérôme Sohier)
+- Mini-symposium "Microfluidic Approaches for Biomechanics" in collaboration with the GDR *Micro NanoFluidique* (Pierre Joseph and Magalie Faivre)
+
+Guillaume, Mariana and Jean-Marc presented their work on magnetic collagen hydrogels, hydrogel mechanical characterization and rheology of blood clots respectively.
+
+### Poster by Mariana Otoya
+
+> **Multi-technique mechanical characterization of low-density collagen hydrogels for the study of extra-cellular matrix remodeling by vascular smooth muscle cells**
+>
+> *Mariana Otoya, Chloé Techens, Jean-Marc Allain* — Laboratoire de Mécanique des Solides, École polytechnique
+
+Vascular smooth muscle cells constantly probe and remodel the collagen-rich scaffold that surrounds them, and the anisotropy of this extracellular matrix plays a key role in their behaviour. To characterize this remodeling mechanically, Mariana presents the frameworks she developed to fabricate reproducible **isotropic and anisotropic collagen gels** and to test them at different spatial scales using:
+
+- **Indentation**, with contact geometry measured by Optical Coherence Tomography (OCT);
+- **Uniaxial traction**, on reinforced "dog-bone" shaped samples;
+- **Rheology** (time, strain and frequency sweeps).
+
+![Mariana Otoya in front of her poster.](../resources/images/news/gdr_compiegne.jpg){fig-align="center" width="60%"}
+
+### Presentation by Guillaume Lafitte
+
+> **Magnetic collagen hydrogels as active 3D matrices for Aortic Smooth Muscle Cell stimulation**
+>
+> *Guillaume Lafitte, Jean Boisson, Chloé Techens* — Laboratoire de Mécanique des Solides, École polytechnique & LMI, ENSTA
+
+Guillaume presents the latest developments in the design of **magnetic hydrogels** that can be remotely controlled and activated to mechanically stimulate smooth muscle cells in 3D. This project is carried out in collaboration with **Jean Boisson** (LMI, ENSTA).
+Magnetic collagen hydrogels serve as active matrices to stimulate mechanosensitive aortic smooth
+muscle cells and study pathologies like aneurysms. Since realistic 3D models of cellular mechanical
+stimulation under local matrix loading are lacking, this study proposes a magnetically
+loaded collagen matrix to better control fiber network deformation. Hydrogels (2 mg/mL) were
+synthesized using HCl or PBS 10X solutions, mixed with magnetite nanoparticles (10–20 nm)
+at 0.1, 0.5, and 1 mg/mL. Shear rheology, optical coherence tomography, and digital volume
+correlation evaluated their mechanical properties and deformations under static and dynamic
+magnetic fields. Preliminary results show that the nanoparticles do not impact the storage modulus
+of PBS-10X based materials ( 52 Pa), whereas the storage modulus of HCl-based materials
+increases (from 44.6 to 102.5 Pa). Under a magnetic field, particle tracking revealed measurable
+displacements ranging from 6.4 μm to 75.8 μm depending on the frame count.
+
+### Presentation by Jean-Marc Allain
+
+> **Rhéologie et microstructure des caillots sanguins**
+>
+> *Jean-Marc Allain* — Laboratoire de Mécanique des Solides, École polytechnique
+
+Hypercoagulabilité est une des sources de la thrombose veineuse profonde et des embolies, dans lesquels il se forme un caillot dans une veine. Elle reste difficile à diagnostiquer dans la majorité des cas. Nous faisons l'hypothèse que l'hypercoagulabilité va modifier les cascades biochimiques de coagulation du réseau de fibrine, à la base de la coagulation sanguine, ce qui va aussi changer sa mécanique. Nous avons développé un système permettant, sur le même caillot, de mesurer la réponse microrhéologique, en suivant une bille micrométrique, et d'observer la microstructure du réseau au confocal. Cela nous permet d'accéder, pour des caillots sains et des caillots mimant l'hypercoagulabilité, aux modules de stockage et de perte, ainsi qu'à la structure du réseau de fibrine : les caillots sains sont moins rigides et moins denses.
